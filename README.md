@@ -26,6 +26,7 @@
 | [01](clases/clase-01/) | 2023-03-17 | interfaces electrónicas               |
 | [02](clases/clase-02/) | 2023-03-24 | computadores y microcontroladores     |
 | [03](clases/clase-03/) | 2023-03-31 | entradas análogas y digitales         |
+| día feriado            | 2023-04-07 | no hay clases                         |
 | [04](clases/clase-04/) | 2023-04-14 | comunicación serial                   |
 | [05](clases/clase-05/) | 2023-04-21 | pulsador, delay(), analogRead()       |
 | [06](clases/clase-06/) | 2023-04-28 | salida de audio                       |
