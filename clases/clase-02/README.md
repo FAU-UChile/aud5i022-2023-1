@@ -1,6 +1,6 @@
 # clase-02
 
-martes 24 marzo 2023, presencial
+viernes 24 marzo 2023, presencial
 
 ## repaso clase anterior y programa hoy (5 min)
 
