@@ -11,7 +11,7 @@
 - semestre: primer semestre 2023
 - profesor: [aarón montoya-moraga](https://montoyamoraga.io)
 - ayudante: ignacio passalacqua
-- estudiantes inscritos: 29
+- estudiantes inscritos: 32
 - versión anterior del curso: https://github.com/montoyamoraga/aud5i022-2022-1
 
 ## repositorio
