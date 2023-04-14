@@ -1,6 +1,6 @@
 # clase-04
 
-viernes 08 abril 2023, presencial
+viernes 07 abril 2023, presencial
 
 ## repaso clase anterior y programa hoy
 

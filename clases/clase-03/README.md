@@ -15,14 +15,13 @@ hoy aprenderemos:
 - entrega de materiales
 - instalación de software para el curso
 - fundamentos de programación en Arduino
-- ejemplos con LED
-- ejemplos con variables y puerto serial
+- ejemplos con LED, variables y puerto serial
 
 ## entrega de materiales
 
 somos 32 estudiantes y 2 personas del equipo docente.
 cada persona tendrá su propio kit de Arduino según resultados encuesta.
-para más info,
+para más info, revisar el enlace en u-cursos llamado
 
 ## instalación de software para el curso
 
@@ -99,7 +98,7 @@ String verso = "habia una vez";s
 
 ```
 
-### ejemplo con LED interno
+## ejemplo con LED interno
 
 código completo en [ej_00_led_interno](ej_00_led_interno)
 
@@ -111,7 +110,7 @@ en la configuración (setup) hacemos que el pin digital 13 sea una salida (OUTPU
 
 en el refresco (loop) hacemos que la nuestra salida digital del pin 13 alterne entre valores digitales 1 y 0, con una pausa de 1 segundo entre cada estado.
 
-### ejemplo imprimir String
+## ejemplo imprimir String
 
 código completo en [ej_01_imprimir_string](ej_01_imprimir_string)
 
@@ -121,19 +120,19 @@ estos mensajes podemos leerlos en el monitor serial del software Arduino IDE.
 
 en el monitor serial tenemos opciones de configuración de velocidad de [baudios](https://es.wikipedia.org/wiki/Baudio), de avanzar automáticamente, o de registrar el tiempo de llegada de cada mensaje.
 
-### ejemplo imprimir variables internas
+## ejemplo imprimir variables internas
 
 código completo en [ej_02_imprimir_variable](ej_02_imprimir_variable)
 
 también podemos imprimir valores de variables internas a través del puerto serial.
 
-### ejemplo arrojar dado
+## ejemplo arrojar dado
 
 código completo en [ej_03_arrojar_dado](ej_03_arrojar_dado)
 
 podemos programar un Arduino para simular el acto de arrojar un dado, con valores mínino y máximo variables.
 
-### ejemplo lectura serial
+## ejemplo lectura serial
 
 código completo en [ej_04_lectura_serial](ej_04_lectura_serial)
 
@@ -143,7 +142,7 @@ el número impreso corresponde al valor [ASCII](https://es.wikipedia.org/wiki/AS
 
 13 es CR, por carriage return, en español [retorno de carro](https://es.wikipedia.org/wiki/Retorno_de_carro).
 
-### ejemplo poema condicional
+## ejemplo poema condicional
 
 código completo en [ej_05_poema_condicional](ej_05_poema_condicional)
 
