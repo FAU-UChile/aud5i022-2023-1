@@ -29,11 +29,11 @@
 | día feriado            | 2023-04-07 | no hay clases                         |
 | [04](clases/clase-04/) | 2023-04-14 | comunicación serial                   |
 | [05](clases/clase-05/) | 2023-04-21 | pulsador, delay(), analogRead()       |
-| [06](clases/clase-06/) | 2023-04-28 | salida de audio                       |
+| [06](clases/clase-06/) | 2023-04-28 | proyecto grupal mitad de semestre     |
 | semana receso          | 2023-05-05 | no clases no trabajos                 |
-| [07](clases/clase-07/) | 2023-05-12 | entrada y salida MIDI                 |
-| [08](clases/clase-08/) | 2023-05-19 | comunicación serial con apps y web    |
-| [09](clases/clase-09/) | 2023-05-26 | proyecto grupal mitad de semestre     |
+| [07](clases/clase-07/) | 2023-05-12 | comunicación serial con apps          |
+| [08](clases/clase-08/) | 2023-05-19 | entrada y salida MIDI                 |
+| [09](clases/clase-09/) | 2023-05-26 | salida de audio                       |
 | [10](clases/clase-10/) | 2023-06-02 | retroalimentación para usuarios       |
 | [11](clases/clase-11/) | 2023-06-09 | sensores de entrada                   |
 | [12](clases/clase-12/) | 2023-06-16 | inteligencia artificial               |
