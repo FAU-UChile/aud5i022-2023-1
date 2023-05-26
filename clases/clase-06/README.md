@@ -1,5 +1,9 @@
 # aud5i022-2023-control
 
+viernes 28 abril 2023
+
+proyecto grupal mitad de semestre
+
 ## pauta
 
 - punto base
