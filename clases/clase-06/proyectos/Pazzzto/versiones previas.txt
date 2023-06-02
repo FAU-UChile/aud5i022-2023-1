@@ -1,0 +1,225 @@
+VERSIONES PREVIAS (ninguna de estas es la final)
+
+VERSION 1
+int luz1 = 5;
+int luz2 = 6;
+int luz3 = 9;
+int perilla = A0;
+int valorPerilla = 0;
+
+void setup() {
+pinMode(luz1, OUTPUT);
+pinMode(luz2, OUTPUT);
+pinMode(luz3, OUTPUT);
+Serial.begin(9600);
+}
+
+void loop() {
+valorPerilla = analogRead(perilla);
+Serial.println(valorPerilla);
+
+luz1 = valorPerilla / 4;
+luz2 = valorPerilla / 4;
+luz3 = valorPerilla / 4;
+
+analogWrite(luz1, intensidadLuz1);
+Serial.println("luz 1 high");
+delay(2000);
+digitalWrite(luz1, LOW);
+Serial.println("luz 1 low");
+delay(2000);
+
+analogWrite(luz2, LOW);
+Serial.println("luz 2 low");
+delay(1000);
+digitalWrite(luz2, HIGH);
+Serial.println("luz2 high");
+delay(1000);
+
+analogWrite(luz3, HIGH);
+Serial.println("luz3 high");
+delay(500);
+digitalWrite(luz3, LOW);
+Serial.println("luz 3 low");
+delay(500);
+
+
+
+VERSION 2
+
+// Integrantes: Javiera Torres Painevilo, Sofia Fuentes Duarte, Katherine Machuca Celis
+//
+
+// Pines digitales (~) en los que van conectadas cada luz led
+int patitaLuz0 = 5;
+int patitaLuz1 = 6;
+int patitaLuz2 = 9;
+
+// Pin analogo de la perilla
+int patitaPerilla = A0;
+
+// Valores de partida cuando se gira la perilla
+int valorPerilla = 0;
+int valorLuz0 = 0;
+int valorLuz1 = 0;
+int valorLuz2 = 0;
+
+//Luz que se enciende
+int cualLuz = 0;
+
+void setup() {
+
+  //Salidas de los led
+  pinMode(patitaLuz0, OUTPUT);
+  pinMode(patitaLuz1, OUTPUT);
+  pinMode(patitaLuz2, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  // si el boton pulsador esta presionado
+  // aumentar en 1 el valor cualLuz
+
+  valorPerilla = analogRead(patitaPerilla);
+  Serial.println(valorPerilla);
+
+  // actualizar valor luz
+  //el dividido en 4 es para bajar la resolución a un cuarto, ya no habría 1023 valores, sino que menos. Para que sean leíbles por el LED.
+  //valor perilla es de 0 a 1023
+  //valor de la luz es de 0 a 255
+  valorLuz0 = valorPerilla / 4;
+  valorLuz1 = valorPerilla / 4;
+  valorLuz2 = valorPerilla / 4;
+
+  // tiempo que la luz esta prendida
+  analogWrite(patitaLuz0, valorLuz0);
+  delay(100);
+
+  //tiempo que la luz esta apagada
+  digitalWrite(patitaLuz0, 0);
+  delay(100);
+
+  analogWrite(patitaLuz1, valorLuz1);
+  delay(1000);
+  digitalWrite(patitaLuz1, 0);
+  delay(1000);
+
+  // analogWrite(luz3, HIGH);
+  // Serial.println("luz3 high");
+  // delay(500);
+  // digitalWrite(luz3, LOW);
+  // Serial.println("luz 3 low");
+  // delay(500);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VERSION 3
+
+
+
+// Integrantes: Javiera Torres Painevilo, Sofia Fuentes Duarte, Katherine Machuca Celis
+//
+
+// Pines digitales (~) en los que van conectadas cada luz led
+int patitaLuz0 = 11;
+int patitaLuz1 = 10;
+int patitaLuz2 = 9;
+int patitaLuz3 = 6;
+int patitaLuz4 = 5;
+
+// Pin analogo de la perilla
+int patitaPerilla = A0;
+
+//pulsador (al presionarlo apaga el circuito, al soltarlo vuelve a funcionar)
+int pulsador = 7;
+
+// Valores de partida
+int valorPerilla = 0;
+int valorLuz0 = 0;
+int valorLuz1 = 0;
+int valorLuz2 = 0;
+int valorLuz3 = 0;
+int valorLuz = 0;
+int valorPulsador = 0;
+
+//Luz que se enciende
+int cualLuz = 0;
+
+void setup() {
+
+  //Salidas de los led
+  pinMode(patitaLuz0, OUTPUT);
+  pinMode(patitaLuz1, OUTPUT);
+  pinMode(patitaLuz2, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  // si el boton pulsador esta presionado
+  // aumentar en 1 el valor cualLuz
+
+  valorPulsador = digitalRead(7);
+  Serial.println(valorPulsador);  
+
+  valorPerilla = analogRead(patitaPerilla);
+  Serial.println(valorPerilla);
+
+  // actualizar valor luz
+  //el dividido en 4 es para bajar la resolución a un cuarto, ya no habría 1023 valores, sino que menos. Para que sean leíbles por el LED.
+  //valor perilla es de 0 a 1023
+  //valor de la luz es de 0 a 255
+  valorLuz0 = valorPerilla / 4;
+  valorLuz1 = valorPerilla / 4;
+  valorLuz2 = valorPerilla / 4;
+  valorLuz3 = valorPerilla / 4;
+  valorLuz4 = valorPerilla / 4;
+
+  // tiempo que la luz esta prendida
+  analogWrite(patitaLuz0, valorLuz0);
+  delay(200);
+
+  //tiempo que la luz esta apagada
+  digitalWrite(patitaLuz0, 0);
+  delay(100);
+
+  analogWrite(patitaLuz1, valorLuz1);
+  delay(200);
+  digitalWrite(patitaLuz1, 0);
+  delay(100);
+
+  analogWrite(patitaLuz2, valorLuz2);
+  delay(200);
+  digitalWrite(patitaLuz2, 0);
+  delay(100);
+
+  analogWrite(patitaLuz3, valorLuz3);
+  delay(200);
+  digitalWrite(patitaLuz3, 0);
+  delay(100);
+
+  analogWrite(patitaLuz4, valorLuz4);
+  delay(200);
+  digitalWrite(patitaLuz4, 0);
+  delay(100);
+
+}
+
+
