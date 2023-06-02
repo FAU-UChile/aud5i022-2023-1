@@ -1,5 +1,6 @@
-Archivo de Proyecto Final - Diseño Interfaz Electrónica Mediante Arduino
-Francisco Cabrera     2023
+Archivo de Proyecto Final - Diseño Interfaz Electrónica Mediante Arduino        2023
+Francisco Cabrera [Toomanypanchos](https://github.com/Toomanypanchos)
+En conjunto a [VanesaAngulo](https://github.com/VanesaAngulo) 
 
 Redacción de Informe
 
