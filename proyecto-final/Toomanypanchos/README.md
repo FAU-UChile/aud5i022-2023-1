@@ -33,5 +33,5 @@ la cantidad de cambles necesarios para controlar LEDs RGB singulares complica mu
 
 
 https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/82ec4b09-e5ea-4749-8815-d4654b3ba954
-
+control de led RGB mediante arduino.
 
