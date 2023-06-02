@@ -13,20 +13,20 @@ uso de tiras de fibra optica led
 
 https://afel.cl/producto/diodo-led-rgb-5mm/
 
--objeto que reacciona al movimiento, emitiendo sonido al moverse
--theremin
+1 a-objeto que reacciona al movimiento, emitiendo sonido al moverse
+  b-theremin
 
--vestimenta que reaccione a distancia y permita controlar tiras LED (cambiando colores)
-  -zapattilla que indica distancia del pie con el piso
-  -chaleco que indica distacnia con otras personas u objetos
+2-vestimenta que reaccione a distancia y permita controlar tiras LED (cambiando colores)
+  a-zapattilla que indica distancia del pie con el piso
+  b-chaleco que indica distacnia con otras personas u objetos
+  c-Muro LED que sea capaz de leer una silueta mediante sensores infrarojos, y gracias al uso de      codigo (ejemplo: processing) dibuje en este muro led la misma cilueta.
+  
+  3-sistema de control de cortinas mediante estimulo luminico u horario 
 
--sistema de control de cortinas mediante estimulo luminico u horario 
+  4-simulador de sopita hirviendo con humo y bolitas de plumavit 
 
--simulador de sopita hirviendo con humo y bolitas de plumavit 
 
--Muro LED que sea capaz de leer una silueta mediante sensores infrarojos, y gracias al uso de codigo (ejemplo: processing) dibuje en este muro led la misma cilueta.
-
-Proyecto a realizar 
+Proyecto a realizar (relacion con el punto 2)
 mecanismo que reaccione a distancio o tacto permitiendo controlar sistema de led RGB.
 para comprender mejor el uso de los leds RGB realizar una estructura cuadrada que permita crear imagenes o efectos visuales mediante el manejo de varios LEDs
 
