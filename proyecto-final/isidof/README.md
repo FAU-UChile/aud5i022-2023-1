@@ -1,2 +1,2 @@
 PROYECTO FINAL
-Estoy trabajando con [
+Estoy trabajando con [LinaHerrera01](https://github.com/linaherrera01)
