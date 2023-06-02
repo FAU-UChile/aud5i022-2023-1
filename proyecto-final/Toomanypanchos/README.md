@@ -24,6 +24,8 @@ https://afel.cl/producto/diodo-led-rgb-5mm/
 
 -simulador de sopita hirviendo con humo y bolitas de plumavit 
 
+-Muro LED que sea capaz de leer una silueta mediante sensores infrarojos, y gracias al uso de codigo (ejemplo: processing) dibuje en este muro led la misma cilueta.
+
 Proyecto a realizar 
 mecanismo que reaccione a distancio o tacto permitiendo controlar sistema de led RGB.
 para comprender mejor el uso de los leds RGB realizar una estructura cuadrada que permita crear imagenes o efectos visuales mediante el manejo de varios LEDs
