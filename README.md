@@ -21,25 +21,25 @@
 
 ## calendario
 
-| clase                  | fecha      | tema                                  |
-| :--------------------- | :--------- | :------------------------------------ |
-| [01](clases/clase-01/) | 2023-03-17 | interfaces electrónicas               |
-| [02](clases/clase-02/) | 2023-03-24 | computadores y microcontroladores     |
-| [03](clases/clase-03/) | 2023-03-31 | entradas análogas y digitales         |
-| día feriado            | 2023-04-07 | no hay clases                         |
-| [04](clases/clase-04/) | 2023-04-14 | comunicación serial                   |
-| [05](clases/clase-05/) | 2023-04-21 | pulsador, delay(), analogRead()       |
-| [06](clases/clase-06/) | 2023-04-28 | proyecto grupal mitad de semestre     |
-| semana receso          | 2023-05-05 | no clases no trabajos                 |
-| [07](clases/clase-07/) | 2023-05-12 | comunicación serial con apps          |
-| [08](clases/clase-08/) | 2023-05-19 | entrada y salida MIDI                 |
-| [09](clases/clase-09/) | 2023-05-26 | salida de audio                       |
-| [10](clases/clase-10/) | 2023-06-02 | retroalimentación para usuarios       |
-| [11](clases/clase-11/) | 2023-06-09 | sensores de entrada                   |
-| [12](clases/clase-12/) | 2023-06-16 | inteligencia artificial               |
-| trabajo autónomo       | 2023-06-23 | no hay clases, trabajo grupal         |
-| [13](clases/clase-13/) | 2023-06-30 | clase final de evaluación y extensión |
-| cierre acta            | 2023-07-14 | envío actas                           |
+| clase                  | fecha      | tema                                                               |
+| :--------------------- | :--------- | :----------------------------------------------------------------- |
+| [01](clases/clase-01/) | 2023-03-17 | interfaces electrónicas                                            |
+| [02](clases/clase-02/) | 2023-03-24 | computadores y microcontroladores                                  |
+| [03](clases/clase-03/) | 2023-03-31 | entradas análogas y digitales                                      |
+| día feriado            | 2023-04-07 | no hay clases                                                      |
+| [04](clases/clase-04/) | 2023-04-14 | comunicación serial                                                |
+| [05](clases/clase-05/) | 2023-04-21 | pulsador, delay(), analogRead()                                    |
+| [06](clases/clase-06/) | 2023-04-28 | proyecto grupal mitad de semestre                                  |
+| semana receso          | 2023-05-05 | no clases no trabajos                                              |
+| [07](clases/clase-07/) | 2023-05-12 | comunicación serial con apps                                       |
+| [08](clases/clase-08/) | 2023-05-19 | salida de audio                                                    |
+| [09](clases/clase-09/) | 2023-05-26 | entrada y salida MIDI                                              |
+| [10](clases/clase-10/) | 2023-06-02 | retroalimentación para usuarios                                    |
+| [11](clases/clase-11/) | 2023-06-09 | primera sesión de trabajo grupal                                   |
+| [12](clases/clase-12/) | 2023-06-16 | segunda sesión de trabajo grupal                                   |
+| trabajo autónomo       | 2023-06-23 | no hay clases, documentación de trabajo grupal                     |
+| [13](clases/clase-13/) | 2023-06-30 | presentación de 5 minutos en grupo de cada proyecto, documentación |
+| cierre acta            | 2023-07-14 | envío actas                                                        |
 
 ## herramientas
 
@@ -77,8 +77,8 @@ las notas van entre 1.0 y 7.0, con resolución de un decimal.
 la nota final del curso es el promedio simple de las notas:
 
 - asistencia: inasistencias justificadas valen media asistencia
-- tareas: tareas son de trabajo individual en horario fuera de clase
-- proyecto: evaluación incluye código, documentación y presentación
+- proyecto grupal de mitad de semestre: trabajo grupal entregado en GitHub
+- proyecto grupal de fin de semestre: proyecto grupal trabajado y presentado en clases y en GitHub
 
 ## bibliografía
 
