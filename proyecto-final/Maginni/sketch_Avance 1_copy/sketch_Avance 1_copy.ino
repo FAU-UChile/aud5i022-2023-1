@@ -9,7 +9,7 @@ void loop() {
 
 // the tone function takes three parameters (the pin number, the tone frequency, the number of seconds to sound)
 
-//Escala Jónica
+//Escala Jonica
 
 //tone(7, 440, 2000); //A
 tone(7, 523, 2000); //C
@@ -50,7 +50,7 @@ delay(500);
 
 delay(2000);
   
-  //Escala Eólico
+  //Escala Eolico
 //A, B, C, D, E, F, G
 
 tone(7, 440, 2000); //A
