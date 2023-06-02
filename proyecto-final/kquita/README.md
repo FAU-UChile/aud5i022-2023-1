@@ -2,7 +2,7 @@ Hola, bienvenido.
 Esta es la documentacion del proyecto final !
 Estoy trabajando con [JustPili1](https://github.com/JustPili1) y [valefuentes](https://github.com/valefuentes)
   
-  
+```java
   //Codigo de arduino trabajado en clases 02/06/23
   int potX;
 int potY;
@@ -82,6 +82,8 @@ void serialEvent(Serial p) {
   print("\n");
   
 }
+
+```
 
 Fue sacado desde aca : http://workshopweekend.net/arduino/projects/etch_a_sketch
 y tambien incluimos algunas cosas del trabajo de Paz Castro [pabecy](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre)
