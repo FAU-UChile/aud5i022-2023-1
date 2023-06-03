@@ -15,11 +15,11 @@ señales de antena
 
 ### Materiales
 
-*2 servos
+2 servos
 
 *1 arduino
 
-*sensores por determinar
+* sensores por determinar
 
 *piezas fabricadas por determinar 
 
