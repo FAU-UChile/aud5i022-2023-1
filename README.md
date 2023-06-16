@@ -12,13 +12,13 @@
 - profesor: [aarón montoya-moraga](https://github.com/montoyamoraga)
 - ayudante: [ignacio passalacqua](https://github.com/ipassala)
 - estudiantes inscritos: 32
-- versión anterior del curso: https://github.com/montoyamoraga/aud5i022-2022-1
+- versión anterior del curso: [https://github.com/disenoUChile/aud5i022-2022-1](https://github.com/disenoUChile/aud5i022-2022-1)
 
 ## repositorio
 
 - [clases](./clases/): una subcarpeta por cada clase
 - [trabajos](./trabajos/): enunciados de trabajos
-- [examen](./examen)
+- [examen](./examen): una subcarpeta por cada entrega de examen
 
 ## calendario
 
