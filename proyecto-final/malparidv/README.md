@@ -1,5 +1,6 @@
 Estoy trabajando con [chicomaker](https://github.com/chicomaker)
 
+# acerca de 
 ## materiales
 
 - microcontrolador Seeeduino XIAO SAMD21.
@@ -35,9 +36,26 @@ conectar LED al Seeeduino y al sensor.
 - conectar GND de los LED a GND del Seeeduino mediante un pin.
 - conectar GND de los LED a GND del sensor mediante un pin.
 - conectar pines de los LED al Seeeduino: digital D3, D4 y D5.
+- positvo LED rojo a pin D5
+- positivo LED amarillo a pin D4
+- positvo LED verde a pin D3
 
 4.
 
 conectar pulsador
 - con una resistencia de 10k, conectar pulsador a GND 
+- conectar pin superior de pulsador a 5V de Seeeduino.
+- pulsador a A9
+
+5.
+
+conectar Buzzer
+
+- positivo del Buzzer a pin 8
+- negativo del Buzzer va a GND.
+
+## código para Seeeduino
+
+
+
 
