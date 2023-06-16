@@ -18,7 +18,7 @@
 
 - [clases](./clases/): una subcarpeta por cada clase
 - [trabajos](./trabajos/): enunciados de trabajos
-- [examen](./examen): una subcarpeta por cada entrega de examen
+- [proyecto-final](./proyecto-final): una subcarpeta por cada entrega grupal de proyecto final
 
 ## calendario
 
