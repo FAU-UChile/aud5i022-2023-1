@@ -7,3 +7,5 @@ El trabajo se basa en reproducir una cancion mediente el parlante en Arduino y q
 adjunto referencias visiuales y el trabajo de referencia en arduino que es un reloj led que cambia de hora y segundos pasando por distintos leds para determinar que hora es.
 
 Ahora la idea cambio a un sensor que percibe la distancia y mediante ello un led RGB cambiando dependiendo de la proximidad del objeto, en este caso, la mano y la sombra que proyecta esta. Con el cambio de color en el LED simultaneamnete se produce un sonido producido por un Buzzer.
+
+se adjuntara con los vanazes producidos en la clase del dia 16.06.23
