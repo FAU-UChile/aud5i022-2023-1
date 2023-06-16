@@ -13,3 +13,6 @@ https://processing.org/reference/libraries/sound/AudioSample.html Sampleo: selec
   https://processing.org/reference/libraries/sound/AudioSample_jump_.html
   https://processing.org/reference/libraries/sound/AudioSample_frames_.html
   https://processing.org/reference/libraries/sound/AudioSample_pause_.html
+
+Clase de avance
+
