@@ -17,3 +17,7 @@ Registro de avance 1
 Registro de avance 2
 
 probamos dentro del codigo la herramienta de millis ademas de agregar al hardware un potenciometro.
+
+![IMG_20230616_174425](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/7e88c9df-cda8-4410-a1ca-8236224fc3bd)
+![IMG_20230616_174437](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/3656801a-1df7-442e-83b4-f69504c6e535)
+
