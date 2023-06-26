@@ -21,3 +21,8 @@ probamos dentro del codigo la herramienta de millis ademas de agregar al hardwar
 ![IMG_20230616_174425](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/7e88c9df-cda8-4410-a1ca-8236224fc3bd)
 ![IMG_20230616_174437](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/3656801a-1df7-442e-83b4-f69504c6e535)
 
+Registro de avance 3
+
+modificamos el orden del hardware para mayor facilidad en las conexiones ademas de dar ciertos arreglos a como funciona el proyecto. incluimos al hardware un boton por el cual indicara cuando es que el sonido del buzzer debe ser activado.
+
+tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton, buzzer y potenciometro funcionasen entre si correctamente ademas de dar una explicacion de que hace cada parte en el codigo. 
