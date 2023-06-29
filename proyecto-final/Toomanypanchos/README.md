@@ -51,8 +51,18 @@ Materiales requeridos
 -	2M Alambre.
 -	36 cables de variadas longitudes.
 -	16 resistencias 220
-Debido a que para el curso ambos integrantes del equipo adquirimos el kit de Arduino, contamos con la mayoría de los elementos necesarios, solo nos hace falta los LEDs y el alambre.
+-	Cautín
+-	Estaño y pasta para soldar
+
+Debido a que para el curso ambos integrantes del equipo adquirimos el kit de Arduino, contamos con la mayoría de los elementos necesarios, solo nos hace falta los LEDs, el alambre y los materiales para soldar, salvo el cautín que tenemos.
 
 [Diodo Led 3mm](https://www.kowka.cl/diodos/157-diodo-led-3mm-alta-luminosidad.html)
+
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/3562fc13-44d6-41cf-a93a-ae9189c1044f)
+
+
+[Soldadura 50% estaño con pasta 1 metro Indepp](https://www.easy.cl/soldadura-50-estano-con-pasta-1-metro-indepp-191160/p?gclid=Cj0KCQjw1_SkBhDwARIsANbGpFvWeUQibH3RAtVKBNBq65JOwZGxyx25PSW25UwPt-wz9p2_Tz9N6CQaAgVKEALw_wcB)
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/3ff61472-287a-44af-8c02-6d8d7ea8cdf6)
+
+Alambre comprado en ferreteria
 
