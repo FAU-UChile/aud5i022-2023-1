@@ -2,7 +2,7 @@ Hola, bienvenido.
 Esta es la documentacion del proyecto final !
 Estoy trabajando con [JustPili1](https://github.com/JustPili1) y [valefuentes](https://github.com/valefuentes)
 
-  #### Contenidos de este repositorio 
+  ### Contenidos de este repositorio 
 
 +
 +
@@ -25,23 +25,52 @@ _____
 *Video*
 
 ## Materiales 
-#### Hardware
-+ Arduino uno
-+ 2 Protoboard
-+ 3 potenciometros
-+ Pulsador 
-+ Resistencia de 220R
-+ 5 cables rojos
-+ 5 cables verdes
-+ 1 cable blanco
-+ 1 Cable azul
-+ 2 amarillos
+ #### Hardware
+  + Arduino uno
+  + 2 Protoboard
+  + 3 potenciometros
+  + Pulsador 
+  + Resistencia de 220R
+  + 5 cables rojos
+  + 5 cables verdes
+  + 1 cable blanco
+  + 1 Cable azul
+  + 2 amarillos
 
-  #### Software: 
-+ Arduino IDE
-+ Processing
+ #### Software: 
+  + Arduino IDE
+  + Processing
 
-#### Codigo para Arduino Uno
+## Armado del circuito 
+#### Paso 1: 
+
+Conectar dos cables desde Arduino.Uno a la primera protoboard (1PB):
+ + 5V a canal positivo +
+ + GND a canal negativo - 
+Conectar dos cables más para transpitir la corriente a la segunda protoboard (2PB). Esto puede no ser necesario dependiendo del tamaño de la protoboard a utilizar 
+
+#### Paso 2: 
+
+Acoplar tres potenciometros, dos los extremos de cada protobard (controles de el eje X y el eje Y) y uno extra más cerca del centro (para controlar el grosor de linea).   
+Cada potenciometro va conectado con 3 cables. 
+  + Canal positivo conectado a pin1 potenciometro (fila 1 y 20 en 1PB y fila 26 en 2PB)
+  + Canal negativo conectado a pin3 potenciometro (fila 5 y 24 en 1PB y fila 30 en 2PB)
+  
+  Desde Arduino.Uno
+  + A0 conectado al pin2 potenciometro del eje X (fila 3 en 1PB)
+  + A1 conectado al pin2 potenciometro del eje Y(fila 28 en 2PB)
+  + A2 conectado al pin2 potenciometro del grosor (fila 22 en 1PB)
+    
+#### Paso 3:
+ 
+Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines:
+
++ Canal positivo de protoboard a pin superior
++ Digital 8 de Arduino.Uno a pin inferior
++ Resistencia entre pin inferior y canal negativo de protoboard
+
+### Diagrama de circuito digital 
+## Codigo para Arduino Uno
 ```java
  //Codigo de arduino trabajado en clases 02/06/23
 int potX;
@@ -73,7 +102,11 @@ void loop() {
 }
 ```
 
-#### Codigo para Processing: 
++ ##  En Arduino tenemos: 
++ ###  Void setup 
++ ###  Void Loop
+  
+## Codigo para Processing: 
  ```java
  // Etch-a-Sketch
 // based on a sketch by Trevor Shannon
@@ -124,7 +157,8 @@ void draw() {
     lastY = y;
   }
 }
-
+//pulsador para reiniciar el dibujo
+//la pantalla vuelve a blanco 
 void mouseClicked() {
   background(255);
 }
@@ -133,24 +167,33 @@ void serialEvent(Serial p) {
   nextXY = p.readString();
   print(x,y, grosorLinea);
   print("\n");
- 
- 
+  
 }
 
 ```
-### Referentes y recursos adicionales 
-http://workshopweekend.net/arduino/projects/etch_a_sketch
++ ## En Processing tenemos:
++ ### Void setup 
++ ### Void Draw
 
-Paz Castro [pabecy](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre)
+### Referentes y recursos adicionales
 
-https://processing-spain.blogspot.com/2015/09/312-definir-el-grosor-del-borde.html
+Para este proyecto ocupampos varios  referentes y recursos adicionales para generar ambos códigos.
+#### Codigos  basado en:
+[Etch-a-Sketch por Workshop Weekend](http://workshopweekend.net/arduino/projects/etch_a_sketch)
 
-### Analisis del Código 
-#### + En Arduino 
-#### + Void setup 
-#### + Void Loop
-#### + En Processing
-#### + Void setup 
-#### + Void Loop
+Y una mencion especial a Paz Castro [Pabecy](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre)
+#### Recursos adicionales: 
+[PROCESSING: 3.12 Definir el grosor de linea: strokeWeight()](https://www.youtube.com/watch?v=LCjvERxDCxY) x Air Room [Enero 2016]
+
+[Clase 04 - Comunicación serial y BotónPulsador](https://github.com/disenoUChile/aud5i022-2023-1/tree/main/clases/clase-04) x montoyamoraga [Abril 2023]
+
+[Clase 05 - Potenciometro](https://github.com/disenoUChile/aud5i022-2023-1/tree/main/clases/clase-05) x montoyamoraga [Abril 2023]
+
+
+
+
+
+
+
 
 ## Concluciones
