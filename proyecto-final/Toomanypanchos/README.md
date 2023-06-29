@@ -56,13 +56,20 @@ Materiales requeridos
 
 Debido a que para el curso ambos integrantes del equipo adquirimos el kit de Arduino, contamos con la mayoría de los elementos necesarios, solo nos hace falta los LEDs, el alambre y los materiales para soldar, salvo el cautín que tenemos.
 
-[Diodo Led 3mm](https://www.kowka.cl/diodos/157-diodo-led-3mm-alta-luminosidad.html)
+[Diodo Led 3mm](https://www.kowka.cl/diodos/157-diodo-led-3mm-alta-luminosidad.html)  7.700 pesos
 
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/3562fc13-44d6-41cf-a93a-ae9189c1044f)
 
 
-[Soldadura 50% estaño con pasta 1 metro Indepp](https://www.easy.cl/soldadura-50-estano-con-pasta-1-metro-indepp-191160/p?gclid=Cj0KCQjw1_SkBhDwARIsANbGpFvWeUQibH3RAtVKBNBq65JOwZGxyx25PSW25UwPt-wz9p2_Tz9N6CQaAgVKEALw_wcB)
+[Soldadura 50% estaño con pasta 1 metro Indepp](https://www.easy.cl/soldadura-50-estano-con-pasta-1-metro-indepp-191160/p?gclid=Cj0KCQjw1_SkBhDwARIsANbGpFvWeUQibH3RAtVKBNBq65JOwZGxyx25PSW25UwPt-wz9p2_Tz9N6CQaAgVKEALw_wcB)  4.300 pesos
+
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/3ff61472-287a-44af-8c02-6d8d7ea8cdf6)
 
-Alambre comprado en ferreteria
+los materiales para soldar y el alambre se compraron en una ferreteria.
+
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/6766128e-2c3b-4b2c-b3d0-0cb55f4cf58c)
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/a1c2e052-e280-4842-9a30-cccb18b02858)
+
 
