@@ -84,6 +84,7 @@ Confirmar cada el funcionamiento de cada LED ya que una vez soldado será compli
 Una vez confirmado el funcionamiento del LED se procede a cortar y doblar la patita que conecta con el ánodo generando un círculo que permitirá atravesar con u alambre y alimentar varios LEDs a la vez de la siguiente manera.
 
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/a1c2e052-e280-4842-9a30-cccb18b02858)
+
 Para esto se requirió del uso de dos alicates (dadas las dimensiones) y de una pinza de corte que venia incorporada en uno de ellos.
 
 Realizado este paso con todos los LEDs se prosigue a generar una plantilla para soldarlos y generar cada uno de los pisos que conforman el cubo, asegurando de manera precisa que los LEDs estén X distantes entre ellos y que esto se mantenga para cada piso. Asegurando así una unidad estructural y visual.
@@ -94,5 +95,10 @@ Posicionados todo los LEDs llega el momento de soldarlos, para lo que usamos el 
 La soldadura se realiza cercana a la muesca que tiene la terminal del cátodo del led, esto asegura estabilidad y una composición visual más armónica ya que el alambre se encuentra mas cercano al LED
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c38ec6ff-2040-436c-911d-839a36d2a70c)
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/4bfb8c89-5858-41d4-bbb7-2f3bd29c1f58)
+
+Luego de esto se volvió a verificar la conexión de los LEDs para asegurarse que no se hubieran estropeado al momento de soldar.
+--------Este paso se replico 3 veces mas para formas así los 4 niveles que conforman el cubo--------
+
+
 
 
