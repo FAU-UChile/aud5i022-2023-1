@@ -31,3 +31,4 @@ tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton
 ![WhatsApp Image 2023-06-26 at 6 08 28 PM](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/4c4f5e13-e799-4122-a7e3-aa1085d6662c)
 
 
+
