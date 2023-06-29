@@ -91,14 +91,19 @@ Realizado este paso con todos los LEDs se prosigue a generar una plantilla para 
 La plantilla se realizo sobre un bloque de MDF el que luego de las respectivas medidas se perforo para recibir al LED permitiendo manipular sus hilos conductores con facilidad.
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/cab6b545-153f-4adc-8739-b7bb10b41d7d)
 
-Posicionados todo los LEDs llega el momento de soldarlos, para lo que usamos el alambre el que fue cortado considerando las dimensiones de las aristas del cubo, cortando cualquier material sobrante de la conexión.
+Posicionados todo los LEDs llega el momento de soldarlos, para lo que usaremos 6 alambres por nivel 4 en paralelo y dos perpendiculares a estos, colocados en los bordes exteriores de cada nivel. Cortados considerando las dimensiones de las aristas del cubo, cortando cualquier material sobrante de la conexión.
+
 La soldadura se realiza cercana a la muesca que tiene la terminal del cátodo del led, esto asegura estabilidad y una composición visual más armónica ya que el alambre se encuentra mas cercano al LED
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/e95d2eb5-638f-4af4-aa66-949d1698a5e5)
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c38ec6ff-2040-436c-911d-839a36d2a70c)
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/4bfb8c89-5858-41d4-bbb7-2f3bd29c1f58)
 
 Luego de esto se volvió a verificar la conexión de los LEDs para asegurarse que no se hubieran estropeado al momento de soldar.
+
 --------Este paso se replico 3 veces mas para formas así los 4 niveles que conforman el cubo--------
 
-
+Conformados los 4 niveles esto se unirán mediante alambres verticales que atravesarán los niveles, pasando por los círculos realizados en los ánodos de los LEDs anteriormente, siendo un total de 16 alambres verticales.
+Asegurando que todos los LED de cada nivel están conectados por el lado negativo (cátodo), y las columnas seconectan por el lado positivo (ánodo).
 
 
