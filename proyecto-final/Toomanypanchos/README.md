@@ -67,9 +67,25 @@ Debido a que para el curso ambos integrantes del equipo adquirimos el kit de Ard
 
 los materiales para soldar y el alambre se compraron en una ferreteria.
 
+---- Clase 23-06 ----
+Reunión para trabajo autónomo y avanzar en proyecto.
 
+Objetivo General.
+Construir un cubo con 64 LED, elaborar un programa por medio de Arduino para crear secuencias de iluminación. 
+Pasos a seguir para realizar el proyecto
+
+Confirmar cada el funcionamiento de cada LED ya que una vez soldado será complicado su intercambio.
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/6766128e-2c3b-4b2c-b3d0-0cb55f4cf58c)
 
+Una vez confirmado el funcionamiento del LED se procede a cortar y doblar la patita que conecta con el ánodo generando un círculo que permitirá atravesar con u alambre y alimentar varios LEDs a la vez de la siguiente manera.
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/a1c2e052-e280-4842-9a30-cccb18b02858)
+Para esto se requirió del uso de dos alicates (dadas las dimensiones) y de una pinza de corte que venia incorporada en uno de ellos.
+
+Realizado este paso con todos los LEDs se prosigue a generar una plantilla para soldarlos y generar cada uno de los pisos que conforman el cubo, asegurando de manera precisa que los LEDs estén X distantes entre ellos y que esto se mantenga para cada piso. Asegurando así una unidad estructural y visual.
+La plantilla se realizo sobre un bloque de MDF el que luego de las respectivas medidas se perforo para recibir al LED permitiendo manipular sus hilos conductores con facilidad.
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/cab6b545-153f-4adc-8739-b7bb10b41d7d)
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c38ec6ff-2040-436c-911d-839a36d2a70c)
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/4bfb8c89-5858-41d4-bbb7-2f3bd29c1f58)
 
 
