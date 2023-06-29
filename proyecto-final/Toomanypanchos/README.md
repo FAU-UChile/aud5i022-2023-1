@@ -54,4 +54,5 @@ Materiales requeridos
 Debido a que para el curso ambos integrantes del equipo adquirimos el kit de Arduino, contamos con la mayoría de los elementos necesarios, solo nos hace falta los LEDs y el alambre.
 
 [Diodo Led 3mm](https://www.kowka.cl/diodos/157-diodo-led-3mm-alta-luminosidad.html)
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/3562fc13-44d6-41cf-a93a-ae9189c1044f)
 
