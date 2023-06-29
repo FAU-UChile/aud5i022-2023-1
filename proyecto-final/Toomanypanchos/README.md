@@ -11,25 +11,29 @@ https://vimeo.com/itpred
 uso de tiras de fibra óptica led
 https://afel.cl/producto/diodo-led-rgb-5mm/
 
-1 a-objeto que reacciona al movimiento, emitiendo sonido al moverse
-  b-theremin
-
-2-vestimenta que reaccione a distancia y permita controlar tiras LED (cambiando colores)
+1 a-Objeto que reacciona al movimiento, emitiendo sonido al moverse.
+  b-Theremin
+2-Vestimenta que reaccione a distancia y permita controlar tiras LED (cambiando colores).
 a-	zapatilla que indica distancia del pie con el piso
 b-	chaleco que indica distancia con otras personas u objetos
 c-	Muro LED que sea capaz de leer una silueta mediante sensores infrarrojos, y gracias al uso de      código (ejemplo: processing) dibuje en este muro led la misma silueta.
- 
-  3-	sistema de control de cortinas mediante estimulo lumínico u horario 
-Elección de proeycto (relación con el punto 2)
+3-Sistema de control de cortinas mediante estimulo lumínico u horario.
+
+Elección de proyecto (relación con el punto 2)
 Mecanismo que reaccione a distancia o tacto permitiendo controlar sistema de led RGB.
 Para comprender mejor el uso de los leds RGB realizar una estructura cuadrada que permita crear imágenes o efectos visuales mediante el manejo de varios LEDs
+
 -----------------------------------------------------------
-Problemas identificados 
+Problemas identificados
 La cantidad de cables necesarios para controlar LEDs RGB singulares complica mucho la manipulación e instalación del proyecto, por lo que hemos decidido que sería más practico utilizar algún tipo de "tira" de estas luces ara poder manipular varios al mismo tiempo 
 
 https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/82ec4b09-e5ea-4749-8815-d4654b3ba954
 control de led RGB mediante Arduino.
------------------------------------
+ 
+
+https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/82ec4b09-e5ea-4749-8815-d4654b3ba954
+control de led RGB mediante Arduino.
+
 ---- Clase 16-06 ----
 Definición clara de Proyecto, planificación y cotización de materiales.
 
@@ -85,6 +89,8 @@ Realizado este paso con todos los LEDs se prosigue a generar una plantilla para 
 La plantilla se realizo sobre un bloque de MDF el que luego de las respectivas medidas se perforo para recibir al LED permitiendo manipular sus hilos conductores con facilidad.
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/cab6b545-153f-4adc-8739-b7bb10b41d7d)
 
+Posicionados todo los LEDs llega el momento de soldarlos, para lo que usamos el alambre el que fue cortado considerando las dimensiones de las aristas del cubo, cortando cualquier material sobrante de la conexión.
+La soldadura se realiza cercana a la muesca que tiene la terminal del cátodo del led, esto asegura estabilidad y una composición visual más armónica ya que el alambre se encuentra mas cercano al LED
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c38ec6ff-2040-436c-911d-839a36d2a70c)
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/4bfb8c89-5858-41d4-bbb7-2f3bd29c1f58)
 
