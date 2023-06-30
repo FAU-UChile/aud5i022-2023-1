@@ -138,88 +138,119 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
 * Potenciometros a.k.a Perillas (2)
  
   
-agregar imagen 1 
-![1](imagenes/imagenes%20arduino/1.jpeg)
+
+
 
 
 1. Unir la *'Protoboard'* al *'Arduino'*
 * Cable rojo (+)
 * Cable azul (-)
+* 
+![](imagenes/Imagenes%20arduino/1.jpeg)
 
 2. Conectar *'Arduino'* al PC mediante cable USB.
+* 
 3. Conectar la primera mitad de la *'Protoboard'* con la segunda mitad. (Debido a que no le llega energía a toda la *'Protoboard'*)
-   Imagen 2 
-5. Agregar 'Botones' a la *'Protoboard'*
+*
+![](imagenes/Imagenes%20arduino/2.jpeg)
+*
+4. Agregar 'Botones' a la *'Protoboard'*
    * (En este caso los ubicamos en la parte derecha, la idea es ubicarlos donde esten comodos para las manos ya que serán utilizados para hacer *'play'* *'pause'* a los sonidos de "SCRATCH".
-     Imagen 2.1
-6. Conectar los cables para hacerles llegar energía a los botones.
+  ![](imagenes/Imagenes%20arduino/2.1.jpeg)
+*
+5. Conectar los cables para hacerles llegar energía a los botones.
    * ###### Primer boton 
    * Cable rojo en las primeras patitas al*positivo* (+) de la *'Protoboard'* 
    * Cable amarillo en las segundas patitas al *'PIN 7'* del arduino
-     Imagen 3 y 3.1
+     ![](imagenes/Imagenes%20arduino/3.1.jpeg)
+     ![](imagenes/Imagenes%20arduino/3.jpeg)
    * ###### Segundo boton
    * Cable rojo  en las primeras patita al *positivo* (+) de la *'Protoboard'*
    * Cable amarillo en las segundas patitas hacia el *'PIN 6~'* del arduino
-     Imagen 4.1
-     Imagen 4
+  ![](imagenes/Imagenes%20arduino/4.1.jpeg)
+     ![](imagenes/Imagenes%20arduino/4.jpeg)
      ###### Resultado
-     Imagen 5
-6.1  Agregar *Resistores* de 10k
-    
+![](imagenes/Imagenes%20arduino/5.jpeg)
+6.  Agregar *Resistores* de 10k
+*    
 7. Agregar los 'Interruptores' a la *'Protoboard'*
     * (En este caso los ubicamos uno en la parte derecha y otro a la izquierda. La idea es que podamos diferenciar que cada uno de los interruptores hara *'play'* y *'pause'* a cada uno de los audios principales *'baserap.mp3'* y *'vocal'* )
 8. Conectar los cables a los respectivos interruptores para hacerles llegar energia.
-   Imagen 7
+![](imagenes/Imagenes%20arduino/7.jpeg)
    * ###### Primer interruptor (lado derecho)
    * Cable rojo al *positivo (+)* de la *'Protoboard'*
    * Cable verde al *'PIN 2'* de arduino
-     Imagen 7.1
+   * 
+ ![](imagenes/Imagenes%20arduino/7.1.jpeg)
    * ###### Segundo interruptor (lado izquierdo)
    * Cable rojo al *positivo (+)* de la *'Protoboard'*
    * Cable verde al *'PIN 8'* de arduino
-     Imagen 9.1
-8.1  Agregar *Resistores* de 10k
-     Imagen 9
+   * 
+     ![](imagenes/Imagenes%20arduino/9.1.jpeg)
+9  Agregar *Resistores* de 10k
+    ![](imagenes/Imagenes%20arduino/9.jpeg)
+*
    ###### Resultado
-   Imagen 10
+   ![](imagenes/Imagenes%20arduino/10.jpeg)
+*
 10. Agregar 2 Perillas a la *'Protoboard'*
-    Imagen 11
+   
+    ![](imagenes/Imagenes%20arduino/11.jpeg)
     *(Una a cada lugar, derecha e izquierda en la letra A)
-    Imagen 13
+*
+    ![](imagenes/Imagenes%20arduino/13.jpeg)
 12. Conectar los cables a las respectivos perillas para hacerles llegar energia.
 * ###### Primera perilla (lado izquierdo)
-  Imagen 12
+*
+  ![](imagenes/Imagenes%20arduino/12.jpeg)
+*
 * Cable rojo al *positivo (+)* de la *'Protoboard'*
 * Cable amarillo al *'PIN A1'* de arduino
-   Imagen 12.1
+*
+  ![](imagenes/Imagenes%20arduino/12.1.jpeg)
 * Cable azul *Negativo (-)* de la *'Protoboard'*
  
 * ###### Segunda perilla (lado derecho)
 * Cable rojo al *positivo (+)* de la *'Protoboard'*
 * Cable amarillo al *'PIN A2'* de arduino
-  Imagen 13.1
+  
+  ![](imagenes/Imagenes%20arduino/13.1.jpeg)
 * Cable azul *Negativo (-)* de la *'Protoboard'*
    ###### Resultado
-  Imagen 14
-
-imagen 15 y 15.1
+*
+  ![](imagenes/Imagenes%20arduino/14.jpeg)
+*
+![](imagenes/Imagenes%20arduino/15.jpeg)
+*
+![](imagenes/Imagenes%20arduino/15.1.jpeg)
 13. Agregar Potenciometro lineal  a la *'Protoboard'*
  * (Entre las perillas y los interruptores)
-    Imagen 16 
+*
+  ![](imagenes/Imagenes%20arduino/16.jpeg)
  * (Patitas en las letras F Y H)
-Imagen 17.1 y 17.2
+ ![](imagenes/Imagenes%20arduino/17.1.jpeg)
+*
+![](imagenes/Imagenes%20arduino/17.2.jpeg)
+*
  ###### Resultado
- Imagen 17
+*
+ ![](imagenes/Imagenes%20arduino/17.jpeg)
+ *
 
  14. Conectar cables
 * ###### Primeras 2 patitas (1 y 2) (lado derecho)
 * Cable rojo al *positivo (+)* de la *'Protoboard'*
 * Cable verde al *'PIN A0'* de arduino
-  Imagen 18
+![](imagenes/Imagenes%20arduino/18jpeg)
+*
 
 * ###### Patita que esta sola (3) (lado izquierdo)
 * Cable azul *Negativo (-)* de la *'Protoboard'*
-* Imagen 19
+*
+* ![](imagenes/Imagenes%20arduino/19.jpeg)
+
+
+*![](imagenes/Imagenes%20arduino/20.jpeg)
 
   
 
