@@ -59,6 +59,10 @@ MATERIALES
 
 Placa Arduino, Protoboard, Cable USB de conexión a Arduino , Motor Servo, 10 cables , 1 resistencia de 22R, 1 botón pulsador, 1 condensador electrolítico.
 
+MATERIALES DEL MECANISMO:
+
+Base de madera de pino, alambre 0,1 mm, madera de pino tallada, pintura, plastico.
+
 DIAGRAMA
 
 ![image](https://github.com/sofiachaav/aud5i022-2023-1/assets/129554344/8a60de52-b734-461f-84e6-2cca98de6cd1)
