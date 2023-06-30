@@ -20,24 +20,29 @@ Proyecto final **ALCHOTEST: un controlador de alcohol pórtatil y preciso**
 
 ---
 
-## Materiales
+### Video Presentación
+
+https://drive.google.com/drive/u/2/folders/1fU6XIDReTW_ktsL8KD7b0nyMxMKf0-Na
+
+### Materiales
 
 - microcontrolador Seeeduino XIAO SAMD21.
 - MQ-3 modulo sensor de alcohol. 
 - luces LED.
 - termoretractil.
 - cables.
+- buzzer.
 
-## Software
+### Software
 
 - Arduino 2.1.0.
 - Shapr3D.
 
-## Impresora
+### Impresora
 
   - Impresora 3D Creality Ender-3 S1
 
-## Diseño en 3D
+### Diseño en 3D
 
 - Diseñar en 3D la carcasa del Alchotest en Shapr3D.
 
@@ -45,7 +50,7 @@ Proyecto final **ALCHOTEST: un controlador de alcohol pórtatil y preciso**
 
 ![imagen](https://github.com/malparidv/aud5i022-2023-1/blob/main/proyecto-final/malparidv/Im%C3%A1genes/WhatsApp%20Image%202023-06-30%20at%2011.09.39%20AM(3).jpeg?raw=true)
 
-## Armado de circuito
+# Armado de circuito
 
 1. 
 
@@ -94,7 +99,7 @@ conectar Buzzer
 
 ---
 
-## Código para Seeeduino
+### Código para Seeeduino
 
 Monitorear los niveles de alcohol mediantes luces LED
 
@@ -104,16 +109,6 @@ Monitorear los niveles de alcohol mediantes luces LED
 
 How MQ3 Alcohol Sensor Works? & Interface it with Arduino:
 https://lastminuteengineers.com/mq3-alcohol-sensor-arduino-tutorial/
-
----
-# Conclusiones
-
-**Apendizajes:**
-
-- Circuito conectado de un Seeeduino A sensor MQ-3 y 3 leds,
-- 
-
-
 
 
 
