@@ -18,7 +18,7 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 
 -Arduino
 -Protoboard
--Cables
+-11 Cables
 -1 Fotoreceptor
 -2 Potenciómetros
 
@@ -29,14 +29,26 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 
 
 ### Conexiones:
-5V = +
-GND = -
-A0 = 
-A1 =
-
-#### Potenciómetro 1 conectado en: 1, 2 y 3
-1 = +
+5V a canal positivo +
+GND a canal negativo -
 
 
-####
+#### Input 1: Movimiento de eje X e Y de las partículas
+Potenciómetro azul
+(A0)
+
+
+
+
+#### Input 2: Edición de "LifeSpam"
+Potenciómetro verde 
+(A1)
+
+
+
+#### Input 3: Sentido de las partículas
+Fotoreceptor 
+(A2)
+
+
 
