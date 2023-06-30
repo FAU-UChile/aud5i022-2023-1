@@ -56,12 +56,12 @@ Conectamos 5 cables en la Breadboard para darle energía al potenciómetro
 
 *	Cable rojo suministra 5v a carril positivo
 *	Cable Verde desde carril negativo a GND 
-*	Patita central del potenciómetro a analogic in A0
+*	Terminal central del potenciómetro a analogic in A0
   
 ![1688093681482](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/e40f4ec7-9b11-4256-8945-6766bdc774ae)
 ![1688093681499](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/5f51feb9-cfe3-4121-b6af-248ef7394693)
 
-Se incorpora Buzzer él y dos cables en sus respectivos carriles
+Se incorpora él Buzzer y dos cables en sus respectivos carriles
 
 *	Cable amarillo desde el lado positivo a pin 12
 *	Cable verde hacia carril negativo
@@ -94,7 +94,7 @@ Agregar botones
 
 En este trabajo aprendimos como se relacionan los componentes del Arduino como los botones, el Buzzer y el potenciómetro. Esto nos brindó una experiencia didáctica, en donde hicimos que estos componentes funcionaran en conjunto. También nos permite ampliar nuestro conocimiento mediante la experimentación con notas musicales.
 Nos encontramos con variadas dificultades. Tuvimos algunos problemas con el color de los cables, también se nos complicó incorporar la función del potenciómetro y los botones al mismo tiempo. Además, en un momento quisimos agregar un código de processing para complementar el trabajo, pero hubo problemas al desarrollar un código que leyera la información del Arduino
-A pesar estos problemas, quedamos conformes con el proyecto ya que enriquecimos nuestros conocimientos. Siempre obtenemos una enseñada acerca sobre estos desafíos.
+A pesar estos problemas, quedamos conformes con el proyecto ya que enriquecimos nuestros conocimientos. Siempre obtenemos un aprendizaje acerca sobre estos desafíos.
 
 
 
