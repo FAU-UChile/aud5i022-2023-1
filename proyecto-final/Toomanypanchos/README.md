@@ -122,3 +122,152 @@ Y las conexiones negativas van alimentadas por nivel horizontal dando control de
 
 Respectivamente los 16 cables verticales se conectarán al Arduino en sus 14 pines digitales y 2 análogos y los 4 pines análogos restantes usaran para las conexiones horizontales. 
 
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c7b8ef88-458b-45c3-9a1a-63913c45bf20)
+
+---- Clase 29-06 ----
+
+Reunion Autonoma para implementar codigo y probar funcionamiento de circuito
+
+la implementacion del codigo es un ejercicio de comprension, copiado, pegado, observacion y futura experimentacion.
+Esto dado que es un codigo que viene en un archivo descargable para armar el cubo por lo que no es de nuestra autoria y por tanto tenemos el labor de comprenderlo mas que desarrollarlo.
+
+Link del video de referencia y codigo 
+https://www.youtube.com/watch?v=spXlnHxGb-E
+
+-------- Ejemplo codigo --------
+
+int led[] = {13,12,11,10,9,8,7,6,5,4,3,2,1,0,A4,A5}; //Salidas
+//de las columnas
+int lvl[] = {A3,A2,A1,A0}; //Salidas
+//de las filas
+int y; //Variable
+//para encender las filas
+
+void setup() { //En esta parte se establece la
+//configuración
+ for (int x = 0; x < 16; x ++) { //Declarar los pines de las columnas como salidas
+ pinMode(led[x], OUTPUT);
+ }
+ for (int x = 0; x < 4; x ++) { //Declarar los pines de las filas como salidas
+ pinMode(lvl[x], OUTPUT);
+ }
+}
+
+void loop() { //En esta parte se repite la secuencia infinitas veces
+ for (int x = 0; x < 4; x++) { //Cada animación se repite 4 veces
+ uxu(); //Se llama a la función uxu
+ }
+ for (int x = 0; x < 4; x++) {
+ pxp(); //Se llama a la función pxp
+ }
+ for (int x = 0; x < 4; x++) {
+ cubito(); //Se llama a la función cubito
+ }
+ for (int x = 0; x < 4; x++) {
+ cubote();//Se llama a la función cubote
+ }
+ for (int x = 0; x < 4; x++) {
+ itz(); //Se llama a la función itz
+ }
+ for (int x = 0; x < 4; x++) {
+ ser(); //Se llama a la función ser
+ }
+}
+//Esta función permite establecer valores de encendido y apagado a cada columna,donde 1 es encendido y 0 es apagado
+void LED (int h, int i, int j, int k, int l, int m, int n, int o, int p, int q,
+int r, int s, int t, int u, int v, int w) {
+ digitalWrite (led[0], h);
+ digitalWrite (led[1], i);
+ digitalWrite (led[2], j);
+ digitalWrite (led[3], k);
+ digitalWrite (led[4], l);
+ digitalWrite (led[5], m);
+ digitalWrite (led[6], n);
+ digitalWrite (led[7], o);
+ digitalWrite (led[8], p);
+ digitalWrite (led[9], q);
+ digitalWrite (led[10], r);
+ digitalWrite (led[11], s);
+ digitalWrite (led[12], t);
+ digitalWrite (led[13], u);
+ digitalWrite (led[14], v);
+ digitalWrite (led[15], w);
+}
+void LVL (int h, int i, int j, int k) { //Esta función permite establecer valores de encendido y apagado a cada fila
+ digitalWrite (lvl[0], h);
+ digitalWrite (lvl[1], i);
+ digitalWrite (lvl[2], j);
+ digitalWrite (lvl[3], k);
+}
+void level() { //En esta función se establecen los valores para las filas donde con un 1 los leds no encienden y con 0 encienden
+ switch (y) {
+ case 0: LVL (0, 1, 1, 1); break; //La primera fila encendida
+ case 1: LVL (1, 0, 1, 1); break; //La segunda fila encendida
+ case 2: LVL (1, 1, 0, 1); break; //La tercera fila encendida
+ case 3: LVL (1, 1, 1, 0); break; //La cuarta fila encendida
+ case 4: LVL (0, 1, 1, 0); break; //Las filas exteriores encendidas
+ case 5: LVL (1, 0, 0, 1); break; //Las filas interiores encendidas
+ case 6: LVL (0, 0, 0, 0); break; //Todas las filas encendidas
+ case 7: LVL (0, 0, 0, 1); break; //Todas excepto la última
+ case 8: LVL (0, 0, 1, 1); break; //Las primeras dos
+ case 9: LVL (1, 1, 0, 0); break; //Las últimas dos
+ }
+}
+//En esta animación prende led por led
+void uxu() {
+ int t = 100; //Esta variable determina el tiempo que espera el Arduino para
+//realizar la siguiente acción
+ for (int j = 0; j < 4; j++) { //Este for se utiliza para pasar de una fila a otra
+ y = j; level();
+ LED (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0); delay(t);
+ LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1); delay(t);
+ }
+}
+//En esta animación prende fila por placa
+void pxp() {
+ int t = 500; //Esta variable determina el tiempo que espera el Arduino para
+//realizar la siguiente acción
+ for (int j = 0; j < 4; j++) { //Este for se utiliza para pasar de una fila a otra
+ y = j; level();
+ LED (1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1); delay(t);
+ }
+}
+
+------
+Se continuó implementando el código y observando que todas las conexiones estuvieran correctas, en este momento algunos LEDs se desconectaron y tuvimos que volver a soldarlos jaja.
+(cubo dado vuelta para soldar con mayor facilidad)
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/9fbbab65-7800-4da3-bf3b-621d78887343)
+
+![WhatsApp Image 2023-06-30 at 14 37 45](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/04e52a4e-1e5b-4198-95b5-a184bf4ed96a)
+
+
+Pero a grandes rasgos el cubo funcionaba a la perfección, salvo por un led en la esquina superior, el cual no prendía, llegamos a la conclusión de que debe haberse quemado ya que al conectar otros leds a los alambres que lo alimentaban este prendió.
+
+https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/5fcaabb9-b895-406b-9b62-934a53aaea9a
+
+Para desarrollar diferentes iteraciones dentro de los LEDs existe un software llamado led cube que permite visualizar gráficamente el cubo e iluminar los leds para luego generar un código que se puede aplicar directamente al cubo
+
+![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/84b63d2e-6345-436e-8cda-07ad42f4a083)
+
+link para acceder al software
+https://mega.nz/folder/jgsUGKqD#FUyJB6rwa_1YfDQ-HyK_cQ
+
+
+
+
+
