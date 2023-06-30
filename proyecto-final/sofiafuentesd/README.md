@@ -22,7 +22,8 @@ Reverb (https://processing.org/reference/libraries/sound/Reverb.html)
 
 
 
- En el avance n° 2 (16 de junio)
+En el avance n° 2 (16 de junio)
+
 Repasamos el avance de la clase del día 02 de junio, en donde habíamos encontrado en la página de processing algunos códigos que podrían servir para nuestro proyecto
 Luego nos fuimos a la aplicación de processing en el pc y en: Herramientas > Libraries > Buscamos ‘Sound’ e instalamos “Sound| Provides a simple way to work with audio.” Autor “The Processing Foundation” 
 Luego en Processing > Archivo > Ejemplos: Estuvimos verificando que ejemplos de códigos podían servir. 
