@@ -18,15 +18,6 @@ Protoboard
 
 Cables Dupont M/M
 
-# **Software**
-Arduino IDE
-
-Tiempo trabajo: 25 min = 1500 s = 1500000 ms
-
-Tiempos descanso corto: 5 min = 298 s = 298000 ms
-
-Tiempo descanso largo: 20 min = 1198 s = 1198000 ms
-
 # **Introducción**
 
 La gestión efectiva del tiempo es esencial para maximizar la productividad en cualquier actividad, especialmente en el estudio y el trabajo.
@@ -44,6 +35,16 @@ Entre sus beneficios estan:
 - Fomenta la autodisciplina
 
 Para facilitar la implementación de la técnica Pomodoro, se ha desarrollado un reloj especialmente diseñado que te permite llevar un seguimiento preciso de los intervalos de trabajo y descanso.
+
+
+# **Software**
+Arduino IDE
+
+Tiempo trabajo: 25 min = 1500 s = 1500000 ms
+
+Tiempos descanso corto: 5 min = 298 s = 298000 ms
+
+Tiempo descanso largo: 20 min = 1198 s = 1198000 ms
 
 # Ensamble 
 
