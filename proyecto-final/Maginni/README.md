@@ -21,7 +21,7 @@ Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://
 
 ## Registro de avance 1
 
-[img/avance-1](img/avance-1)
+[img/img-avance-1](img/img-avance-1.jpeg)
 
 ## Registro de avance 2
 
