@@ -73,7 +73,10 @@ Sentido de partículas
 Editor de lifespam
 
 
-[![Ver video](VID_37930329_155409_922.mp4)](VID_37930329_155409_922.mp4)
+
+[![VER](fotos_videos/VID_37930329_155409_922.mp4)](VID_37930329_155409_922.mp4)
+
+
 
 
 # Sistema de partículas: Aplicación en la vida real
