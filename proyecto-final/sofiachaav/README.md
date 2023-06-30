@@ -147,3 +147,4 @@ APRENDIZAJE:
 - aprender a programas y utilizar un motor servo
 - aprender a programar los giros y velocidades del motor
 - crear un modelo formal del mecanismo de biela
+- hacer que el boton encienda y apague el dispositivo a comando
