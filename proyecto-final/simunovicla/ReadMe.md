@@ -13,11 +13,10 @@ El proyecto planteado es la emisión y cambio gradual de luz emitido por un led 
 - 1 Arduino Uno
 - 1 Photoboard
 - 3 Resistencias de 220
-- 1 Resistencia de 1k 
+- 1 Resistencia de 220, 1k  o 10k
 - 1 Led rgb
 - 1 zumbador piezoeléctrico
-- 1 pulsador
-- 1 foto resistencia - LDR
+- 1 foto resistencia o LDR
 - 10 cables
 
 ## Software
@@ -34,7 +33,7 @@ La primera parte utiliza un LED rgb y una foto resistencia –LRD.
 
 El objetivo planteado para la primera parte es el cambio gradual en la emisión de luz mediante un sensor. Se busca que el LED RGB atraviese distintas tonalidades que irán en aumento dependiendo de la distancia de la mano o dedo de la foto resistencia – LRD.
 
-Es decir, el led parte con un color inicial: rojo, sin ningún cuerpo sobre la foto resistencia. Con forme acercamos un cuerpo al foto Resistol el color ira variando: azul, cuerpo a distancia considerable al foto Resistol; verde, cuerpo cercano al foto Resistol, y finalmente blanco, cuerpo a pulgadas del foto Resistol.
+Es decir, el led parte con un color inicial: rojo, sin ningún cuerpo sobre la foto resistencia. Con forme acercamos un cuerpo al foto Resistencia el color ira variando: azul, cuerpo a distancia considerable al foto Resistencia; verde, cuerpo cercano al foto Resistencia, y finalmente blanco, cuerpo a pulgadas del foto Resistencia.
 
 **1.**
 
@@ -61,9 +60,9 @@ En DIGITAL (PWM)…
 
 Utilizar tres resistencias de 220 para el LED RGB en la Photoboard
 
-- 1 Resistol entre la fila e n° 30 y i n° 30
-- 1 Resistol entre la fila e n° 28 e i n° 28
-- 1 Resistol entre la fila e n° 27 e i n° 27
+- 1 Resistencia entre la fila e n° 30 y i n° 30
+- 1 Resistencia entre la fila e n° 28 e i n° 28
+- 1 Resistencia entre la fila e n° 27 e i n° 27
 
 **1.4**
 
@@ -82,9 +81,15 @@ Para el correcto funcionar del sensor se necesita la conexión desde arduino Uno
 
 **1.6**
 
-Uso de un Resistol de 1k y el sensor
+Uso de un Resistencia y el sensor. 
 
-- Resistol en la fila c n°14 al n° 12
+OJO: en esta sección se debe tener en cuenta la cantidad de luz que se encuentra en el sector donde se tendra el circuito. 
+    En  un lugar con:
+        - Mucha luz, utilice una resistencia bajo (por ejemplo, 220)
+        - Luz media, utilice una resistencia media (por ejemplo, 1k)
+        - Luz baja, utilice una resistencia alta (por ejemplo, 10k)
+
+- Resistencia en la fila c n°14 al n° 12
 - Sensor en la fila d n°16 al n°14
 
 Parte dos: Buzzer, emisión de sonido.
@@ -241,11 +246,20 @@ void loop() {
 
 ---
 
+## Video demostrativo
+![Para ver como debería funcionar el circuito en su forma final y con su código, vea el video demostrativo](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/Video.mp4)
+
 ## Conclusiones y aprendizaje:
 
 Es un proyecto interesante realizar que mostro cierta dificultad al realizarse. El trabajo consta de tres partes: el led, el sensor y el buzzer. El primer reto fue hacer funcionar el led de manera individual, siendo este lo primero en probar y donde no se utilizó un led rgb sino uno simple. apoyándonos de los códigos de clase la dificultad fue hacerlo funcionar con los elementos que precisábamos para el cumplir el objetivo propuesto. Pasar del led simple a uno rgb y que este funcionar con otro elemnto: el sensor y finalmente con el buzzer.
 
 El proyecto permite aprender la unión de distintos elementos, en este caso, tres elementos con distinto comportamiento y que funcionen en conjunto.
+
+Además, este proyecto es uno donde se debe estar consiente de como factores externos alteran los resultados de nuestra experimentación. Como nuestro trabajo está en función a un sensor de que mide la intensidad de luz percibida en el lugar, cosas como la calidad de luz en la habitación, o si es que está nublado o soleado en el exterior, alteran la forma en que funcionan los distintos elementos. Ante esto, hay se debe prestar atencion a las medidas que se pueden tomar para lidear con estas variaciones. 
+
+En nuestro caso, nosotras contabamos con dos opciones, aumentar la resitencia que se encontraba con la foto resistencia, u aumentar los valores asignados como límites a los distintos colores. Nostras optamos por la primera, por facilidad y otorgar mayor posibilidad de variación. Esto, queda al juicio de quien realice este proeycto. 
+
+Estas distintas posibilidades, terminan por generar una infinidad de posibilidades, que en lo que parece muy cuadrado y rígido, permite que se refleje la personalidad de quien realiza el trabajo. Son detalles, pero resulta interesante de pensar. 
 
 ---
 
