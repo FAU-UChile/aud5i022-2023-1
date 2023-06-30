@@ -14,4 +14,15 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 * Ejemplo basado en Processing: [Simple continuously-controlled particle system](http://www.wekinator.org/examples/#Processing_animation_audio)
 * Utilizando como Input: [Arduino](http://www.wekinator.org/examples/#Arduino)
 
+Materiales:
 
+
+
+
+
+
+
+
+
+
+Conexiones:
