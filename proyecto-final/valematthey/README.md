@@ -3,7 +3,7 @@ Estoy trabajando con [jota-pe-ge](https://gibhub.com/jota-pe-ge)
 * carpeta [fotos_videos](fotos_videos)
   * archivo 1 [physics-g09ac840c2_carousel.png]
 
-![physics-g09ac840c2_carousel](physics-g09ac840c2_carousel.png)
+![physics-g09ac840c2_carousel.png](physics-g09ac840c2_carousel.png)
 
 ### Proyecto Final
 # Sistema de partículas controladas por arduino con asistencia de IA
