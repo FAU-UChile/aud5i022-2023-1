@@ -24,5 +24,16 @@ Circuito en Arduino
 ![foto 4](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen23.png)
 ![foto 5](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen24.png)
 
+5.- Conectar 2 luces en la protoboard una de color rojo y otra de color verde, en la columna b
+(La patita de más larga positiva va arriba y la más corta negativa va abajo).
+
+![foto 6](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen25.png)
+
+6.- Conectar la patita inferior de cada luz a tierra con una resistencia de 220R.
+
+![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen26.png)
+
+
+
 
 
