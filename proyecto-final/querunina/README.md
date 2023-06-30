@@ -25,9 +25,10 @@ https://github.com/querunina/aud5i022-2023-1/assets/128185880/786d507a-bac1-4a17
 
 //
 
-Materiales
+Materiales: 
 
 ![Proyecto doom chiquito](https://github.com/querunina/aud5i022-2023-1/assets/128185880/cda96182-1c46-4a86-9c56-f6e0642e18de)
++Protoboard y placa arduino
 
 //
 
