@@ -4,13 +4,17 @@ Estoy trabajando con [JustPili1](https://github.com/JustPili1) y [valefuentes](h
 
   ### Contenidos de este repositorio 
 
-+
-+
-+
-+
++ imagen 20230616_182948.jpg
++ imagen 20230616_183549.jpg
++ imagen 20230616_184042.jpg
++ imagen 20230616_184229.jpg
++ imagen PIR Motion Sensor (Digital Input).png
++ imagen WhatsApp Image 2023-06-30 at 2.24.44 PM.jpeg
++ video WhatsApp Video 2023-06-30 at 2.22.30 PM.mp4
++ archivo README.md
 _____
 # Acerca de 
-Proyecto ETCH A SKETCH: JUGUETE ANÁLOGO EN LA ERA DIGITAL- visualización y principios de interfaz interactiva
+Proyecto ETCH A SKETCH: JUGUETE ANÁLOGO EN LA ERA DIGITAL- visualización y principios de interfaz interactiva 
 
 [Junio, 2023]
 
@@ -22,7 +26,10 @@ Ayudante : [Ignacio Passalacqua](https://github.com/ipassala)
 
 Ramo: Diseño de interfaz electrónica mediante Arduino (AUD5I022-1)
 _____
-*Video*
+## Etch a Sketch o Telesketch
+Es un juquete para dibujar en vase a dos ejes (X e Y) inventado en 1959 por el francés André Cassagnes (23 de septiembre de 1926 – 16 de enero de 2013) quien en un principio le dio el nopmbre de "Pantalla Mágica" y que fue comercializado por primera vez en Estados Unidos con el nombre de Etch-A-Sketch por Ohio Art Company en 1960 y en España por Borrás. "la Pantalla Mágica". Tras la pelicula de Toy Story se volvió a popularizar.
+
+https://github.com/kquita/aud5i022-2023-1/assets/90356056/0b6c6d0f-cde7-481a-a487-28c4eb970f1f
 
 ## Materiales 
  #### Hardware
@@ -48,6 +55,7 @@ Conectar dos cables desde Arduino.Uno a la primera protoboard (1PB):
  + 5V a canal positivo +
  + GND a canal negativo - 
 Conectar dos cables más para transpitir la corriente a la segunda protoboard (2PB). Esto puede no ser necesario dependiendo del tamaño de la protoboard a utilizar 
+![WhatsApp Image 2023-06-30 at 2 24 44 PM](https://github.com/kquita/aud5i022-2023-1/assets/90356056/fa5c997f-b751-4406-8873-1b45d702db66)
 
 #### Paso 2: 
 
@@ -59,13 +67,12 @@ Cada potenciometro va conectado con 3 cables.
   Desde Arduino.Uno
   + A0 conectado al pin2 potenciometro del eje X (fila 3 en 1PB)
   + A1 conectado al pin2 potenciometro del eje Y(fila 28 en 2PB)
+    ![alt](20230616_183549.jpg "foto de los pines del arduino.uno conectados a los potenciometos X e Y")
+    (foto de los Potenciometros de eje X e Y aislados)
   + A2 conectado al pin2 potenciometro del grosor (fila 22 en 1PB)
-    ![20230616_183549](https://github.com/kquita/aud5i022-2023-1/assets/90356056/792715f7-a97a-47ed-8f2a-007b53f7914d)
-(Potenciometros de los ejes X e Y)
+   ![alt](20230616_184229.jpg "foto de los pines del arduino.uno conectados a el potenciometro del grosor")
+    (foto Potenciometro del grosor de linea aislado)
 
- ![20230616_184213 (1)](https://github.com/kquita/aud5i022-2023-1/assets/90356056/6b996e24-b4ec-4e2a-b443-03a8873de879)
-
-(Potenciometro del grosor de linea, foto referencial)
 #### Paso 3:
  
 Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines:
@@ -73,14 +80,43 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 + Canal positivo de protoboard a pin superior
 + Digital 8 de Arduino.Uno a pin inferior
 + Resistencia entre pin inferior y canal negativo de protoboard
+  ![alt](20230616_184042.jpg "foto del pulsador aislado")
+  (foto del pulsador aislado)
+  Finalmente todo el circuito armado debería lucir se la siguiente manera: 
 ![20230616_182948](https://github.com/kquita/aud5i022-2023-1/assets/90356056/2a6b8057-89ef-42fd-b2f6-4676a8f3ce43)
 
-### Diagrama de circuito digital 
+#### Paso 4:
+Conectar el Arduino.Uno a la corriente de un computador. 
 
+### Diagrama de circuito digital 
 ![PIR Motion Sensor (Digital Input)](https://github.com/kquita/aud5i022-2023-1/assets/90356056/d33cbaa1-5048-436d-9a92-78325eda6993)
+(diagrama de creacion propia)
 
 ## Codigo para Arduino Uno
 ```java
+// Etch a Sketch
+// Utilizado para Evaluación Final del Electivo Mención I y S: Diseño de interfaz electrónica mediante Arduino
+// Estudiantes Valentina Fuentes, Silvana Olivares y Pilar Vergara
+// Profesor Aaron Montoya y Ayudante Ignacio Passalacqua
+// Código de arduino trabajado en clases 02/06/23
+// Basado en rl códig proporcionado por Trevor Shannon
+// Para que el Etch a Sketch funcione se necesita de:
+// Hardware:
+// + Arduino uno
+// + 2 Protoboard
+// + 3 potenciometros
+// + Pulsador
+// + Resistencia de 220R
+// + 5 cables rojos
+// + 5 cables verdes
+// + 1 cable blanco
+// + 1 Cable azul
+// + 2 amarillos
+// Software:
+// + Arduino IDE
+// + Processing
+
+
  //Codigo de arduino trabajado en clases 02/06/23
 int potX;
 int potY;
@@ -127,10 +163,25 @@ A las variables se le asignan los valores de pines análogos específicos ya men
   
 ## Codigo para Processing: 
  ```java
- // Etch-a-Sketch
-// based on a sketch by Trevor Shannon
-
-//falta la intro y el hardware
+// Etch a Sketch
+// Utilizado para Evaluación Final del Electivo Mención I y S: Diseño de interfaz electrónica mediante Arduino
+// Estudiantes Valentina Fuentes, Silvana Olivares y Pilar Vergara
+// Profesor Aaron Montoya y Ayudante Ignacio Passalacqua
+// Código de arduino trabajado en clases 02/06/23
+// Basado en el código proporcionado por workshopweekend
+// Para que el Etch a Sketch funcione se necesita de:
+// Hardware: // + Arduino uno // + 2 Protoboard
+// + 3 potenciometros
+// + Pulsador
+// + Resistencia de 220R
+// + 5 cables rojos
+// + 5 cables verdes
+// + 1 cable blanco
+// + 1 Cable azul
+// + 2 amarillos
+// Software:
+// + Arduino IDE
+// + Processing
 
 import processing.serial.*;
 
@@ -233,4 +284,6 @@ Los mayores logros son:
 Otras cosas en tener en cuenta son las modificaciones que hicimos como equipo (grosores de línea distintos y el reset)
 Las cuales en un principio iban a ser diferentes ya que teniamos en mente cambiar el color de línea y el de fondo , pero para no sobrecargar la interfaz física de la protoboard con muchos pulsadores, decidimos 
 solo un potenciómetro más (para el grosor) y pulsador (reset). 
+
+ Aprendimos igualmente a tener especial consideracion de revisar el puerto COM coiuncida con el codigo de processing ya que fue un error comun que tuvimos más de una vez. 
 
