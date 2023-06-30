@@ -80,7 +80,9 @@ Agregar botones
 
 **Repositorio: https://github.com/joaquinsuazo/aud5i022-2023-1/tree/main/proyecto-final/Maginni/sketch_EscalasDO.**
 
-## Conclusion 
+**Referencia: https://www.youtube.com/watch?v=5I7kO58g6xA.**
+
+## Conclusión 
 
 En este trabajo aprendimos como se relacionan los componentes del Arduino como los botones, el Buzzer y el potenciómetro. Esto nos brindó una experiencia didáctica, en donde hicimos que estos componentes funcionaran en conjunto. También nos permite ampliar nuestro conocimiento mediante la experimentación con notas musicales.
 Nos encontramos con variadas dificultades. Tuvimos algunos problemas con el color de los cables, también se nos complicó incorporar la función del potenciómetro y los botones al mismo tiempo. Además, en un momento quisimos agregar un código de processing para complementar el trabajo, pero hubo problemas al desarrollar un código que leyera la información del Arduino
