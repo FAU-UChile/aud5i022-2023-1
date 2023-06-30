@@ -2,7 +2,8 @@ Hola
 Trabajo con [hungrybagu](http://github.com/hungrybagu) y [vickgit201](http://github.com/vickgit201)
 
 Idea inicial:
-Tomamos un código base (link) para poder correr el juego Doom (1993) en una pantalla O-Led conectada a arduino. En este código configuramos su jugabilidad, eligiendo en primer lugar que fuese controlado totalmente por botones insertados en la proto board y configurados con sus respectivas conexiones con cableado. Posterior a un primer vistazo, intentamos hacer que el disparo dentro del juego funcionara con un fotoresistor y así omitir uno de los botones. 
+Tomamos un código base para poder correr el juego Doom (1993) en una pantalla O-Led conectada a arduino. En este código configuramos su jugabilidad, eligiendo en primer lugar que fuese controlado totalmente por botones insertados en la proto board y configurados con sus respectivas conexiones con cableado. Posterior a un primer vistazo, intentamos hacer que el disparo dentro del juego funcionara con un fotoresistor y así omitir uno de los botones. 
+
 
 Primeros pasos
 ![Imagen de WhatsApp 2023-06-29 a las 21 15 48](https://github.com/querunina/aud5i022-2023-1/assets/128185880/1f25b222-b66a-4be5-8975-08cefc88138c)
@@ -22,3 +23,6 @@ La decisión final fue quedarse con fotoresistor y botones a a vez.
 
 https://github.com/querunina/aud5i022-2023-1/assets/128185880/786d507a-bac1-4a17-bda5-7724637ef922
 
+//
+
+Código aparte
