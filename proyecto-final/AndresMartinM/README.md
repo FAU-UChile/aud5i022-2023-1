@@ -39,6 +39,9 @@ Para poder construirme es necesario:
 2. Conectar el segundo servo (ServoRutina) a la salida 6 de Arduino Uno, 5V y tierra.
 3. Conectar el fotorresistor a 5v, a tierra a través de una resistenca de 220 ohm y a entrada A0 de Arduino Uno.
 
+![alt](./20230602_174649.jpg "foto wonita")
+
+
 ## Proceso de fabricación 
 
 ![alt](./20230621_150403.jpg "foto wonita")
@@ -93,3 +96,6 @@ void moverServos() {
 ```
 ## Conclusiones
 
+1. Los servos que están en mis articulaciones no tienen mucha fuerza por lo que soy muy ligero.
+2. El código que está en mi cerebro es bastante simple, pero mi cuerpazo tiene micho trabajo.
+3. Con mi fotorresistor puedo transformar datos de lumínicos en una forma gráfica, se podría decir que soy un artista.
