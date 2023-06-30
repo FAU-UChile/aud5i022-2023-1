@@ -1,8 +1,8 @@
 Estoy trabajando con [jota-pe-ge](https://gibhub.com/jota-pe-ge)
 
 
-Proyecto Final
-#### Sistema de partículas controladas por arduino con asistencia de IA
+### Proyecto Final
+# Sistema de partículas controladas por arduino con asistencia de IA
 Wekinator es un modelo de inteligencia artificial que permite entregar datos y entrenar a arduino. Para eso, deben utilizarse los siguientes programas:
 
 
@@ -14,7 +14,13 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 * Ejemplo basado en Processing: [Simple continuously-controlled particle system](http://www.wekinator.org/examples/#Processing_animation_audio)
 * Utilizando como Input: [Arduino](http://www.wekinator.org/examples/#Arduino)
 
-Materiales:
+### Materiales:
+
+-Arduino
+-Protoboard
+-Cables
+-1 Fotoreceptor
+-2 Potenciómetros
 
 
 
@@ -22,7 +28,12 @@ Materiales:
 
 
 
+### Conexiones:
+5V = +
+GND = -
+A0 = 
+A1 =
+
+### Perilla 1
 
 
-
-Conexiones:
