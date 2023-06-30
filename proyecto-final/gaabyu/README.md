@@ -1,5 +1,6 @@
 
-![aber2-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/91847777-00cb-4597-9f6f-ca16a5516174)
+![aber3-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/adb3e15d-3e0c-4021-b11e-1b3b20d34343)
+
 
 ## Integrantes
 
