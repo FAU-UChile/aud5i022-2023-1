@@ -10,23 +10,23 @@ Arduino es una plataforma electrónica de código abierto basada en hardware y s
 
 Tu kit probablemente es un poco complejo de entender al principio, primero veamos que contiene:
 
-1x Arduino UNO Original
-1x Protoboard 400pts
-10x LED rojo
-10x LED verde
-1x LED Blanco
-10x Condensador cerámico 10nf
-11x Condensador cerámico 100nf
-5x Condensador electrolítico 47uF
-10x Resistencia 220 Ohm
-10x Resistencia 1k Ohm
-10x Resistencia 10k Ohm
-1x Resistencia fotosensible
-1x Servo
-5x Botones pequeños
-1x Potenciómetro de precisión
-5x Switch
-1x Buzzer
-1x Cable USB de programación
-65 x Cable Dupont para Protoboard
+- 1x Arduino UNO Original
+- 1x Protoboard 400pts
+- 10x LED rojo
+- 10x LED verde
+- 1x LED Blanco
+- 10x Condensador cerámico 10nf
+- 11x Condensador cerámico 100nf
+- 5x Condensador electrolítico 47uF
+- 10x Resistencia 220 Ohm
+- 10x Resistencia 1k Ohm
+- 10x Resistencia 10k Ohm
+- 1x Resistencia fotosensible
+- 1x Servo
+- 5x Botones pequeños
+- 1x Potenciómetro de precisión
+- 5x Switch
+- 1x Buzzer
+- 1x Cable USB de programación
+- 65 x Cable Dupont para Protoboard
 
