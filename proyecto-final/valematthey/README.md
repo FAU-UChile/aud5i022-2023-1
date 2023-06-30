@@ -7,6 +7,7 @@ Estoy trabajando con [jota-pe-ge](https://gibhub.com/jota-pe-ge)
 
 ### Proyecto Final
 # Sistema de partículas controladas por arduino con asistencia de IA
+Nuestro proyecto se basa en el sistema de partículas controladas por arduino utilizando un sistema de inteligencia artificial llamado Wekinator.
 Wekinator es un modelo de inteligencia artificial que permite entregar datos y entrenar a arduino. Para eso, deben utilizarse los siguientes programas:
 
 
