@@ -42,6 +42,7 @@ tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton
 
 
 [VID_20230629_181738.zip](https://github.com/joaquinsuazo/aud5i022-2023-1/files/11911475/VID_20230629_181738.zip)
+https://github.com/joaquinsuazo/aud5i022-2023-1/blob/main/proyecto-final/Maginni/VID_20230629_181738.mp4
 
 
 
