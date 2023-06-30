@@ -1,6 +1,6 @@
-PROCESO DE TRABAJO
+# PROCESO DE TRABAJO
 
-Avance n° 1 (02 de junio)
+## Avance n° 1 (02 de junio)
 
 yeauh yeauh 
 Estoy trabajando con [BenjaIeg] (https://github.com/BenjaIeg)
@@ -24,7 +24,7 @@ Reverb (https://processing.org/reference/libraries/sound/Reverb.html)
 
 
 
-En el avance n° 2 (16 de junio)
+## Avance n° 2 (16 de junio)
 
 
 
@@ -41,7 +41,7 @@ Quedamos en solucionarlo pronto.
 
 
 
-Avance n° 3 (23 de junio)
+## Avance n° 3 (23 de junio)
 // Durante la semana de "trabajo autonomo" 
 Trabajamos en este codigo; (https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/ultimoavancebotonperilla/perillaybotonmusicayarduino/perillaybotonmusicayarduino.pde)
 
