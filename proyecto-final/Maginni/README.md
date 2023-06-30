@@ -1,7 +1,7 @@
 Documentación
 Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://github.com/joaquinsuazo)
 
-#Instrumento Musical Arduino - Modos Musicales 
+## Instrumento Musical Arduino - Modos Musicales 
 
 En este proyecto se hará uso de arduino para desarrollar un instrumento que aleatoriamente reproduzca notas musicales de 3 de los 7 modos musicales griegos: Jónico, Dórico, Frigio, Lidio, Mixolidio, Eólico y Locrio.
 
