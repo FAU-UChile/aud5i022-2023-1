@@ -75,8 +75,46 @@ Agregamos un *'interruptor'* que funcione como interfaz para hacer play y pause.
 * (https://www.youtube.com/watch?v=EQugLcDoaOQ&ab_channel=ChepeCarlos) (Desde el minuto 5:55)
 * Esta solución tampoco nos funcionó ya que el codigo no hizo lo que queríamos. 
 
+
+### AVANCE n° 4 (28 de junio)
 ##### Tercera solución; 
+
+
+* Ahora teniamos que encontrar una manera de que el seria mandara datos de una perilla y boton por separado para que processing pueda leer los datos de manera separada y pueda realizar todas las acciones al mismo tiempo, sin que estas se interrumpan.
+
+* Entre los ejemplos encontrados en internet se destacaban el uso de Serial Print en vez de el uso de serial write, e intentamos ver si se incluian cambios. Una de las diferencias era el uso de println, que marcaba el fin de la linea de datos que se mandaba. 
+Por ejemplo: mientras que serial.write enviaba todos los datos en lineas diferentes y en conjunto de forma que processing tenia que leer 2 lineas diferentes entre boton y perilla
+
+* Print y println es capaz de enviar los datos en conjunto en una linea. 
+Print(boton);
+Println(perilla);
+1 1000 (interruptor y perilla)
+1 1000
+1 1000
 * 
+Luego para categorizar cada dato habia que enviar un print(,) para que la linea enviada se vea tal que asi: 
+Serial.print(boton);
+Serial.print(,);
+Serial.println(perilla);
+
+1 , 1000
+1 , 1000
+
+* De esta manera, teniamos que decirle a processing que use la (,) como separador al momento de leer los datos del serial
+
+if (myPort.available() > 0) {  //si el puerto manda informacion	
+	String data = myPort.readStringUntil('\n');
+	if (data != null) {
+	data = data.trim();
+	String[] values = split(data, ",");
+	if (values.length >= 2) {
+	Boton = int(values[0]);
+	Perilla = int(values[1])
+* Entonces en este ejemplo values.length es el nunero de datos que mandara, aqui seran 2 por boton y perilla.
+
+* Y hay que realizar a continuacion asignarle el nombre con int a cada categoria
+
+Boton = boton int(values[0]) siendo cero el primer “casillero que leera y asignara.
 
 # CODIGO FINAL
 ## Procesing
