@@ -79,7 +79,108 @@ Agregamos un *'interruptor'* que funcione como interfaz para hacer play y pause.
 * 
 
 # CODIGO FINAL
-![alt text] (https://github.com/sofiafuentesd/aud5i022-2023-1/blob/main/proyecto-final/sofiafuentesd/imagenes/Imagenes%20arduino/20.jpeg  "Vista final")
+## Procesing
+https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/Entrega_CodigoProcessing/Entrega_CodigoProcessing.pde
+## Arduino
+https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/Entrega_CodigoArduino/Entrega_CodigoArduino.ino
+
+# PROCESO DE ARMADO DE ARDUINO 
+## Materiales
+* Arduino UNO R3 
+* Cable USB del arduino
+* Protoboard 
+* Cables rojos (8)
+* Cables azules(4)
+* Cables amarillos (4)
+* Cables verdes (3)
+* Cables blancos (2)
+* Resistores de 10k (4)
+* Pulsadores a.k.a Botones (2)
+* 2 Interruptores
+* Potenciometros a.k.a Perillas (2)
+ 
+  
+agregar imagen 1 
+
+1. Unir la *'Protoboard'* al *'Arduino'*
+* Cable rojo (+)
+* Cable azul (-)
+
+2. Conectar *'Arduino'* al PC mediante cable USB.
+3. Conectar la primera mitad de la *'Protoboard'* con la segunda mitad. (Debido a que no le llega energía a toda la *'Protoboard'*)
+   Imagen 2 
+5. Agregar 'Botones' a la *'Protoboard'*
+   * (En este caso los ubicamos en la parte derecha, la idea es ubicarlos donde esten comodos para las manos ya que serán utilizados para hacer *'play'* *'pause'* a los sonidos de "SCRATCH".
+     Imagen 2.1
+6. Conectar los cables para hacerles llegar energía a los botones.
+   * ###### Primer boton 
+   * Cable rojo en las primeras patitas al*positivo* (+) de la *'Protoboard'* 
+   * Cable amarillo en las segundas patitas al *'PIN 7'* del arduino
+     Imagen 3 y 3.1
+   * ###### Segundo boton
+   * Cable rojo  en las primeras patita al *positivo* (+) de la *'Protoboard'*
+   * Cable amarillo en las segundas patitas hacia el *'PIN 6~'* del arduino
+     Imagen 4.1
+     Imagen 4
+     ###### Resultado
+     Imagen 5
+6.1  Agregar *Resistores* de 10k
+    
+7. Agregar los 'Interruptores' a la *'Protoboard'*
+    * (En este caso los ubicamos uno en la parte derecha y otro a la izquierda. La idea es que podamos diferenciar que cada uno de los interruptores hara *'play'* y *'pause'* a cada uno de los audios principales *'baserap.mp3'* y *'vocal'* )
+8. Conectar los cables a los respectivos interruptores para hacerles llegar energia.
+   Imagen 7
+   * ###### Primer interruptor (lado derecho)
+   * Cable rojo al *positivo (+)* de la *'Protoboard'*
+   * Cable verde al *'PIN 2'* de arduino
+     Imagen 7.1
+   * ###### Segundo interruptor (lado izquierdo)
+   * Cable rojo al *positivo (+)* de la *'Protoboard'*
+   * Cable verde al *'PIN 8'* de arduino
+     Imagen 9.1
+8.1  Agregar *Resistores* de 10k
+     Imagen 9
+   ###### Resultado
+   Imagen 10
+10. Agregar 2 Perillas a la *'Protoboard'*
+    Imagen 11
+    *(Una a cada lugar, derecha e izquierda en la letra A)
+    Imagen 13
+12. Conectar los cables a las respectivos perillas para hacerles llegar energia.
+* ###### Primera perilla (lado izquierdo)
+  Imagen 12
+* Cable rojo al *positivo (+)* de la *'Protoboard'*
+* Cable amarillo al *'PIN A1'* de arduino
+   Imagen 12.1
+* Cable azul *Negativo (-)* de la *'Protoboard'*
+ 
+* ###### Segunda perilla (lado derecho)
+* Cable rojo al *positivo (+)* de la *'Protoboard'*
+* Cable amarillo al *'PIN A2'* de arduino
+  Imagen 13.1
+* Cable azul *Negativo (-)* de la *'Protoboard'*
+   ###### Resultado
+  Imagen 14
+
+imagen 15 y 15.1
+13. Agregar Potenciometro lineal  a la *'Protoboard'*
+ * (Entre las perillas y los interruptores)
+    Imagen 16 
+ * (Patitas en las letras F Y H)
+Imagen 17.1 y 17.2
+ ###### Resultado
+ Imagen 17
+
+ 14. Conectar cables
+* ###### Primeras 2 patitas (1 y 2) (lado derecho)
+* Cable rojo al *positivo (+)* de la *'Protoboard'*
+* Cable verde al *'PIN A0'* de arduino
+  Imagen 18
+
+* ###### Patita que esta sola (3) (lado izquierdo)
+* Cable azul *Negativo (-)* de la *'Protoboard'*
+* Imagen 19
+
   
 
 
