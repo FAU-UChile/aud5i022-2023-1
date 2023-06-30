@@ -21,7 +21,7 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 -11 Cables
 -1 Fotoreceptor
 -2 Potenciómetros
-
+-1 Resistor
 
 
 
@@ -49,6 +49,12 @@ Potenciómetro verde
 #### Input 3: Sentido de las partículas
 Fotoreceptor 
 (A2)
+
+
+# Sistema de partículas: Aplicación en la vida real
+Las visualidades que son capaces de generarse con el sistema de partículas podrían ser llevadas a cabo en eventos reales. Por ejemplo en conciertos, desde las visuales de las pantallas LED, podría realizarse un juego de partículas acorde a una canción.
+
+
 
 
 
