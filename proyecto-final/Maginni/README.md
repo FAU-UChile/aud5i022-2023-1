@@ -29,6 +29,7 @@ tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton
 
 ![WhatsApp Image 2023-06-26 at 6 08 28 PM (1)](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/0afae982-01bd-4d6a-b5ee-030e5c095b38)
 ![WhatsApp Image 2023-06-26 at 6 08 28 PM](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/4c4f5e13-e799-4122-a7e3-aa1085d6662c)
+[VID_20230629_181738.zip](https://github.com/joaquinsuazo/aud5i022-2023-1/files/11911475/VID_20230629_181738.zip)
 
 
 
