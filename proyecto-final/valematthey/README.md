@@ -74,7 +74,8 @@ Editor de lifespam
 
 
 
-[![Watch the video](VID_37930329_155409_922.mp4)](VID_37930329_155409_922)
+https://github.com/valematthey/aud5i022-2023-1/assets/128770653/a69a2ff9-0f4c-4a7e-aafe-b47882339b95
+
 
 
 
