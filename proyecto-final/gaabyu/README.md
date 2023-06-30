@@ -49,6 +49,7 @@ Conectamos 5 cables en la Breadboard para darle energía al potenciómetro
 *	Cable rojo suministra 5v a carril positivo
 *	Cable Verde desde carril negativo a GND 
 *	Patita central del potenciómetro a analogic in A0
+  
 ![1688093681482](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/e40f4ec7-9b11-4256-8945-6766bdc774ae)
 ![1688093681499](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/5f51feb9-cfe3-4121-b6af-248ef7394693)
 
@@ -56,6 +57,7 @@ Se incorpora Buzzer él y dos cables en sus respectivos carriles
 
 *	Cable amarillo desde el lado positivo a pin 12
 *	Cable verde hacia carril negativo
+  
 ![1688093647594](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/fbb03721-3021-4d4b-8c4a-5d7d27c359d8)
 ![1688093647581](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/a21fee23-9a04-4309-8e1c-0bc2dbb7cab7)
 
@@ -64,6 +66,7 @@ Agregar botones
 *	Colocación botón1, boton2 y boton3 al centro de la Breadboard 
 *	Cables amarillos conducen una patita a pines 11, 10 y 9 respectivamente
 * Cables verdes conectan la otra patita a GND
+  
 ![1688093627924](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/3d854e09-cafc-40cc-b5b7-b66eb9c33ba9)
 ![1688093627898](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/58915f76-c6ba-46d9-8a69-ebfc2b7dc861)
 ![1688093627911](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128186062/2d354a9b-e07d-4b58-bf2c-b267c243c342)
