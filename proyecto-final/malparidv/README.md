@@ -56,8 +56,8 @@ https://drive.google.com/drive/u/2/folders/1fU6XIDReTW_ktsL8KD7b0nyMxMKf0-Na
 
 conectar los cables desde Seeeduino al sensor.
 
-- soldar al Seeduino ocupando el pin analogo **A0**, el pin digital **D1** y el **5V** y **GND**.
-- conectar pines al sensor.
+- del Seeduino pin análogo **A0**, el pin digital **D1** y el **5V** y **GND**.
+- al sensor pin análogo **A0**, pin digital **D0**, **5V** y **GND** respectivamente.
 
 ![imagen1](https://github.com/malparidv/aud5i022-2023-1/blob/main/proyecto-final/malparidv/Im%C3%A1genes/WhatsApp%20Image%202023-06-30%20at%2011.09.39%20AM.jpeg?raw=true)
 
@@ -67,7 +67,7 @@ colocar LED a la carcasa y soldarlos.
 
 ![imagen](https://github.com/malparidv/aud5i022-2023-1/blob/main/proyecto-final/malparidv/Im%C3%A1genes/WhatsApp%20Image%202023-06-30%20at%2011.09.39%20AM(5).jpeg?raw=true)
 
-- conectar pines a LEDs y soldarlos.
+- conectar cables a positivo de LEDs y soldarlos.
 
 ![imagen](https://github.com/malparidv/aud5i022-2023-1/blob/main/proyecto-final/malparidv/Im%C3%A1genes/WhatsApp%20Image%202023-06-30%20at%2011.09.39%20AM(4).jpeg?raw=true)
 
