@@ -40,6 +40,8 @@ tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton
 ![img-avance-3-1](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/f5ed36e8-8d8b-4add-a7dd-c4acad701797)
 ![img-avance-3-2](https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/71bd7d5f-6671-4ec5-a15e-92347831090e)
 
+## Video de registro
+
 https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/2f528f22-5c43-4b08-84fc-838ecff26650
 
 
