@@ -1,8 +1,71 @@
-# proyecto-final
+Hola, bienvenido. 
+Esta es la documentacion del proyecto final !
+Estoy trabajando con [JustPili1](https://github.com/JustPili1) y [valefuentes](https://github.com/valefuentes)
 
-todo
-Arduino
-//Codigo de arduino trabajado en clases 02/06/23
+  #### Contenidos de este repositorio 
+
++
++
++
++
+_____
+# Acerca de 
+Proyecto ETCH A SKETCH: JUGUETE ANÁLOGO EN LA ERA DIGITAL- visualización y principios de interfaz interactiva
+
+[Junio, 2023]
+
+Estudiantes: [Pilar Vergara](https://github.com/JustPili1), [Valentina Fuentes](https://github.com/valefuentes) y [Silvana Olivares](https://github.com/kquita)
+
+Profesores: [Aaron Montoya](https://github.com/montoyamoraga)
+
+Ayudante : [Ignacio Passalacqua](https://github.com/ipassala)
+
+Ramo: Diseño de interfaz electrónica mediante Arduino (AUD5I022-1)
+_____
+*Video*
+
+## Materiales 
+#### Hardware
++ Arduino uno
++ 2 Protoboard
++ 3 potenciometros
++ Pulsador 
++ Resistencia de 220R
++ 5 cables rojos
++ 5 cables verdes
++ 1 cable blanco
++ 1 Cable azul
++ 2 amarillos
+
+  #### Software: 
++ Arduino IDE
++ Processing
+
+#### Código para Arduino Uno
+```java
+// Etch a Sketch
+// Utilizado para Evaluación Final del Electivo Mención I y S: Diseño de interfaz electrónica mediante Arduino
+// Profesor Aaron Montoya y Ayudante Ignacio Passalacqua
+// Código de arduino trabajado en clases 02/06/23
+// Basado en el código proporcionado por workshopweekend
+
+// Para que el Etch a Sketch funcione se necesita de:
+// Hardware:
+// + Arduino uno
+// + 2 Protoboard
+// + 3 potenciometros
+// + Pulsador 
+// + Resistencia de 220R
+// + 5 cables rojos
+// + 5 cables verdes
+// + 1 cable blanco
+// + 1 Cable azul
+// + 2 amarillos
+
+// Software: 
+// + Arduino IDE
+// + Processing
+
 int potX;
 int potY;
 //agregamos un boton para reiniciar el dibujo
@@ -19,7 +82,7 @@ void loop() {
   potY = analogRead(A1);
   grosorLinea = analogRead(A2);
   // estamos seteando el grosor de la línea, para esto ocupamos la función de MAP
-  grosorLinea = map(grosorLinea, 0, 1023, 1, 10); 
+  grosorLinea = map(grosorLinea, 0, 1023, 1, 10);
   borrar = digitalRead(8);
   Serial.print(potX);
   Serial.print(" ");
@@ -30,14 +93,32 @@ void loop() {
   Serial.println(borrar);
   delay(50);
 }
+```
 
+#### Codigo para Processing: 
+ ```java
+ // Etch a Sketch
+ // Utilizado para Evaluación Final del Electivo Mención I y S: Diseño de interfaz electrónica mediante Arduino
+ // Profesor Aaron Montoya y Ayudante Ignacio Passalacqua
+ // Código de arduino trabajado en clases 02/06/23
+ // Basado en rl códig proporcionado por Trevor Shannon
 
-Processing 
+// Para que el Etch a Sketch funcione se necesita de:
+// Hardware:
+// + Arduino uno
+// + 2 Protoboard
+// + 3 potenciometros
+// + Pulsador 
+// + Resistencia de 220R
+// + 5 cables rojos
+// + 5 cables verdes
+// + 1 cable blanco
+// + 1 Cable azul
+// + 2 amarillos
 
-//y este es el codigo de processing: // Etch-a-Sketch
-// based on a sketch by Trevor Shannon
-
-//falta la intro y el hardware
+// Software: 
+// + Arduino IDE
+// + Processing
 
 import processing.serial.*;
 
@@ -92,6 +173,24 @@ void serialEvent(Serial p) {
   nextXY = p.readString();
   print(x,y, grosorLinea);
   print("\n");
-  
-  
+ 
+ 
 }
+
+```
+### Referentes y recursos adicionales 
+http://workshopweekend.net/arduino/projects/etch_a_sketch
+
+Paz Castro [pabecy](https://github.com/Pabecy/clase-09-proyecto-mitad-semestre)
+
+https://processing-spain.blogspot.com/2015/09/312-definir-el-grosor-del-borde.html
+
+### Analisis del Código 
+#### + En Arduino 
+#### + Void setup 
+#### + Void Loop
+#### + En Processing
+#### + Void setup 
+#### + Void Loop
+
+## Concluciones
