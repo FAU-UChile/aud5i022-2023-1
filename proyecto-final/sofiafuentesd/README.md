@@ -1,3 +1,4 @@
+Avance n° 1 (02 de junio)
 yeauh yeauh 
 Estoy trbajando con [BenjaIeg] (https://github.com/BenjaIeg)
 Nuestra primera idea es trabajar con una suerte de "juego de DJ" de manera que existe una biblioteca de instrumentales de hip hop en processing y que con el arduino poder activar sonidos de scratch. 
@@ -28,3 +29,15 @@ El primer ejemplo que analizamos fue: “AudioSampleManipulation” Aquí invest
 El segundo ejemplo que analizamos fue: “SimplePlayback” Probamos subir un audio descargado por nosotros al processing. Lo cual nos funcinó. Además le añadimos ‘Sample.Play’ con el Mousse en “mouse.Pressed” y ‘Sample.Stop’ con la tecla de espacio en “KeyPressed”. Lo que también funcionó. 
 Estuvimos verificando si el boton funcionaba con el ejercicio de cambiar de color un background. 
 Lo ultimo fue añadir un boton a arduino e incorporarlo como botón de Play y Pause. Al incorporarlo el audio se saturó y manejó parametros que no le pertenecían. 
+
+
+
+
+Avance n° 3 (23 de junio)
+Durante la semana de "trabajo autonomo" 
+Seguimos avanzando en base a los códigos que encontramos en 'Libraries' de Processing 
+El ejemplo "SimplePlayback" como dice en su descripción:
+"* This is a simple sound file player. Use the mouse position to control playback
+ * speed, amplitude and stereo panning."
+Nos ayudó a encontrar una manera de jugar con un sonido > "vibraphon.aiff"
+En este codigo la interfaz para distorsionar el sonido era mediante el mouse
