@@ -12,5 +12,10 @@ Circuito en Arduino
 
 2.- Conectar la patita inferior de cada pulsador a tierra con una resistencia de 220R.
 
-![foto 1](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen21.png)
+![foto 2](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen21.png)
+
+3.- Conectar la patita superior de cada pulsador a 5 volts con un cable auxiliar. 
+
+![foto 3](https://github.com/vickgit201/aud5i022-2023-1/blob/main/proyecto-final/vickgit201/Imagen22.png)
+
 
