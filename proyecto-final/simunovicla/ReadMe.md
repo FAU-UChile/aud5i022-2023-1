@@ -53,7 +53,7 @@ En DIGITAL (PWM)…
 - Hacer conexión con cable entre 11 a la fila D n°27
 - Conexión desde el negativo a la fila g n°29
     
-    ![1.2.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.2.jpg)
+    ![1.2.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/1.2.jpg)
     
 
 **1.3**
@@ -68,7 +68,7 @@ Utilizar tres resistencias de 220 para el LED RGB en la Photoboard
 
 - Led rgb en la fila L desde el n° 30 al n° 27
     
-    ![1.4.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.4.jpg)
+    ![1.4.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/1.4.jpg)
     
 
 **1.5**
@@ -90,9 +90,9 @@ Parte dos: Buzzer, emisión de sonido.
 
 La segunda parte consta de utilizar un zumbador piesaelectrónico (buzzer) para la reproducción de un sonido particular que vaya en aumento de manera simultánea que el grado el color emitido por el led rgb (parte uno)
 
-![1.6.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.6.jpg)
+![1.6.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/1.6.jpg)
 
-![1.66.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.66.jpg)
+![1.66.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/1.66.jpg)
 
 **3.**
 
@@ -107,14 +107,14 @@ En DIGITAL (PWM)…
 
 - Colocar Buzzer en la fila j POSITIVO n°8 a n°5 NEGATIVO
     
-    ![3.22.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/3.22.jpg)
+    ![3.22.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/3.22.jpg)
     
-    ![3222.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/3222.jpg)
+    ![3222.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/3222.jpg)
     
 
 ### Circuito Completo
 
-![circuitototal.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/circuitototal.jpg)
+![circuitototal.jpg](https://github.com/simunovicla/aud5i022-2023-1/blob/main/proyecto-final/simunovicla/RegistroFotografico/circuitototal.jpg)
 
 ---
 
@@ -137,7 +137,6 @@ int ValorVerde = 500;
 int ValorAzul = 600;
 int ValorBlanco = 700;
 
-int 
 
 int valorLDR = 0;  //Creamos la variable de tipo número entero para almacenar los datos recogidos del sensor analógico LDR (Light Dependant Resitor).
 int pinLDR = A0;   //Seleccionamos el pin analógico A0 como input del sensor LDR.
@@ -147,7 +146,6 @@ void setup() {
   pinMode(PinLedVerde, OUTPUT);
   pinMode(PinLedRojo, OUTPUT);
   pinMode(PinLedAzul, OUTPUT);
-  pinMode(pinBuzzer,OUTPUT);
 
   Serial.begin(9600);
 }
