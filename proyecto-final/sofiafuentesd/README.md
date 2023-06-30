@@ -80,7 +80,7 @@ Agregamos un *'interruptor'* que funcione como interfaz para hacer play y pause.
 ##### Tercera solución; 
 
 
-* Ahora teniamos que encontrar una manera de que el seria mandara datos de una perilla y boton por separado para que processing pueda leer los datos de manera separada y pueda realizar todas las acciones al mismo tiempo, sin que estas se interrumpan.
+* Ahora teniamos que encontrar una manera de que el serial mandara datos de una perilla y boton por separado para que processing pueda leer los datos de manera separada y pueda realizar todas las acciones al mismo tiempo, sin que estas se interrumpan.
 
 * Entre los ejemplos encontrados en internet se destacaban el uso de Serial Print en vez de el uso de serial write, e intentamos ver si se incluian cambios. Una de las diferencias era el uso de println, que marcaba el fin de la linea de datos que se mandaba. 
 Por ejemplo: mientras que serial.write enviaba todos los datos en lineas diferentes y en conjunto de forma que processing tenia que leer 2 lineas diferentes entre boton y perilla
@@ -110,7 +110,7 @@ if (myPort.available() > 0) {  //si el puerto manda informacion
 	if (values.length >= 2) {
 	Boton = int(values[0]);
 	Perilla = int(values[1])
-* Entonces en este ejemplo values.length es el nunero de datos que mandara, aqui seran 2 por boton y perilla.
+* Entonces en este ejemplo values.length es el numero de datos que mandara, aqui seran 2 por boton y perilla.
 
 * Y hay que realizar a continuacion asignarle el nombre con int a cada categoria
 
@@ -139,6 +139,8 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
  
   
 agregar imagen 1 
+![1](https://github.com/sofiafuentesd/aud5i022-2023-1/blob/main/proyecto-final/sofiafuentesd/imagenes/Imagenes%20arduino/1.jpegimagenes/1.JPG)![1]
+
 
 1. Unir la *'Protoboard'* al *'Arduino'*
 * Cable rojo (+)
