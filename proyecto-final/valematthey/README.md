@@ -7,7 +7,7 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 
 
 
-#### Programas utilizados
+### Programas utilizados
 * Input: arduino - processing
 * Output: processing
 * Programa de entrenamiento: [Wekinator](http://www.wekinator.org/)
