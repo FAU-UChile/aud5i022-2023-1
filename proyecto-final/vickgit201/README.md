@@ -64,5 +64,27 @@ Circuito en Arduino
 ![foto 16](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen36.png)
 ![foto 17](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen37.png)
 
+Materiales:
+•	2 pulsadores
+•	4 resistencias de 220R
+•	1 luz roja
+•	1 luz verde
+•	1 perilla
+•	3 cables naranjos
+•	3 cables blancos
+•	2 cables verdes
+•	2 cables azules
+•	1 cable rojo
+
+Código
+Código realizado en Arduino IDE y después pasado a Processing. (En los archivos “final3” y “proyectofinal” está explicado con anotaciones // cómo fue realizada cada cosa).
+
+Trabajo realizado por:
+
+Victoria Claveria 
+Katherine Machuca 
+Javiera Torres
+
+
 
 
