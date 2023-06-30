@@ -1,7 +1,8 @@
 Estoy trabajando con [jota-pe-ge](https://gibhub.com/jota-pe-ge)
 
-* carpeta [fotos_videos](fotos_videos)
-  * archivo 1 ![](fotos_videos/physics-g09ac840c2_carousel.png)
+
+  ![](fotos_videos/physics-g09ac840c2_carousel.png)
+
 
 
 ### Proyecto Final
@@ -18,6 +19,9 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 * Ejemplo basado en Processing: [Simple continuously-controlled particle system](http://www.wekinator.org/examples/#Processing_animation_audio)
 * Utilizando como Input: [Arduino](http://www.wekinator.org/examples/#Arduino)
 
+![](fotos_videos/whatsappimage2.jpeg).
+
+
 ### Materiales:
 
 -Arduino
@@ -28,7 +32,7 @@ Wekinator es un modelo de inteligencia artificial que permite entregar datos y e
 -1 Resistor
 
 
-
+![](fotos_videos/whatsappimage.jpeg).
 
 
 
@@ -69,10 +73,15 @@ Sentido de partículas
 Editor de lifespam
 
 
+[![Ver video](VID_37930329_155409_922.mp4)](VID_37930329_155409_922.mp4)
+
+
 # Sistema de partículas: Aplicación en la vida real
 Las visualidades que son capaces de generarse con el sistema de partículas podrían ser llevadas a cabo en eventos reales. Por ejemplo en conciertos, desde las visuales de las pantallas LED, podría realizarse un juego de partículas acorde a una canción.
 
+![](fotos_videos/maxresdefault.jpg).
 
+![](fotos_videos/Chemical-Brothers.jpg).
 
 
 
