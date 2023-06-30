@@ -30,3 +30,8 @@ Tu kit probablemente es un poco complejo de entender al principio, primero veamo
 - 1x Cable USB de programación
 - 65 x Cable Dupont para Protoboard
 
+La placa Arduino se conecta a un ordenador mediante un cable USB, permitiendo la interacción con el entorno de desarrollo Arduino (IDE). 
+
+Algo de Processing ...
+
+Processing es un cuaderno de bocetos de software flexible y un lenguaje para aprender a codificar. Desde 2001, Processing ha promovido la alfabetización en software dentro de las artes visuales y la alfabetización visual dentro de la tecnología. Hay decenas de miles de estudiantes, artistas, diseñadores, investigadores y aficionados que utilizan Processing para aprender y crear prototipos.
