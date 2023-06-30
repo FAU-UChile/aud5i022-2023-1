@@ -43,7 +43,7 @@ tras terminado este arreglo proseguimos por crear nuevo codigo en donde el boton
 https://github.com/joaquinsuazo/aud5i022-2023-1/assets/128074599/2f528f22-5c43-4b08-84fc-838ecff26650
 
 ## Código para Arduino uno <br /> 
-<sub> controlar el Buzzer a traves de potenciometro y botonoes </sub>
+<sub> controlar el Buzzer a traves de potenciometro y botones </sub>
 
 
 **Repositorio: https://github.com/joaquinsuazo/aud5i022-2023-1/tree/main/proyecto-final/Maginni/sketch_EscalasDO.**
