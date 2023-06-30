@@ -1,6 +1,0 @@
-Trabajo: Arduino para principiantes + quiz
-
-Introducción
-Para nuestro proyecto final realizamos dos cosas:
-1.	Un trabajo investigativo sobre Arduino y Processing. El objetivo de este es servir de tutorial para aquellas personas que no saben cómo usar la placa de Arduino ni los softwares relacionados (Arduino y Processing), pero están interesados en aprender. 
-2.	Un juego estilo quiz de preguntas sí/no. Este juego consiste en una serie de preguntas de cultura general con respuestas sí o no. Para ello la persona tiene que responder clickeando el botón de sí/no en la protoboard. Si la respuesta es correcta la luz verde se prenderá, mientras que si es incorrecta la luz roja se prenderá. Las preguntas y puntajes podrán visualizarse en una interfaz de processing, la cual al finalizar el juego mostrará una serie de imágenes que pueden irse visualizando al mover la perilla de la protoboard.
