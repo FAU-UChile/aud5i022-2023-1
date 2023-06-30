@@ -1,19 +1,259 @@
-01
-estoy trabajando con [laura] (https://github.com/laura.simunovic)
+Estoy trabajando con [laura] (https://github.com/laura.simunovic)
 
-Desde donde comenzo este trabajo
+# Proyecto Final
 
-Inicialmente esta fue la idea:
-El trabajo se basa en reproducir una cancion mediente el parlante en Arduino y que simultaneamente las leds pudieran 'reproducir' la frecuencia de la canciobn dependiendo de los bajos y los altos. Algo así como los salvapantallas donde se ven 'lienas de un solo color altas' y lineas ' bajas' de pendiendo del los fuertes y suaves de una canción, aqui algunas referencias 
-adjunto referencias visiuales y el trabajo de referencia en arduino que es un reloj led que cambia de hora y segundos pasando por distintos leds para determinar que hora es.
+# *Interfaz interactiva de sensor, buzzer y led rgb mediante ARDUINO.*
 
-Ahora la idea cambio a un sensor que percibe la distancia y mediante ello un led RGB cambiando dependiendo de la proximidad del objeto, en este caso, la mano y la sombra que proyecta esta. Con el cambio de color en el LED simultaneamnete se produce un sonido producido por un Buzzer.
+Somos Laura Simunovic y Randall Dávalos, estudiantes de la asignatura Diseño de interfaz electrónica mediante Arduino: AUD5I022-1.
 
-Los pasos que se siguieron:
-1. El primer paso fue comprobar el funcionamiento del sensor mediante el acercamiento o sombra producida por la mano.
-2. segundo: fue probar con un led rgb de dos tonos verde y rojo: mientras más lejos este la mano del sensor este sera rojo, conforme se va hacercando la mano al sensor este pasa a ser verde
-3. ahora, hecho esto, utilizmos cuatro 'if': rojo, azul, verde y blanco, el rojo es el color preterminado al tener la mano lejos del sensor, el azul; mientras se va acercando y el blanco vendria siendo cuando el sensor este totalmente cubierto con la mano.
+El proyecto planteado es la emisión y cambio gradual de luz emitido por un led rgb mediante la distancia de un cuerpo en la foto resistencia, y que este cambio de color vaya acompañado de los sonidos emitidos por el buzzer que irán en aumento de pendiendo del color mostrado: rojo, verde, azul o blanco.
 
-4. BUZZER: primer intento; emite un sonido entre el paso del rojo al verde: lo que bscamos hacer es que por cada paso de color: rojo, verde, azul y blanco, el sonido siga emitiendose constantemente y a mayor volumen
+---
 
-se adjuntara con los vanazes producidos en la clase del dia 16.06.23
+## Materiales:
+
+- 1 Arduino Uno
+- 1 Photoboard
+- 4 Resistencias de 220
+- 1 Led rgb
+- 1 zumbador piezoeléctrico
+- 1 pulsador
+- 1 foto resistencia - LDR
+- 10 cables
+
+## Software
+
+- Arduino IDE 0.3
+
+---
+
+## Armado de circuito
+
+Parte uno: Luz y sensor.
+
+La primera parte utiliza un LED rgb y una foto resistencia –LRD.
+
+El objetivo planteado para la primera parte es el cambio gradual en la emisión de luz mediante un sensor. Se busca que el LED RGB atraviese distintas tonalidades que irán en aumento dependiendo de la distancia de la mano o dedo de la foto resistencia – LRD.
+
+Es decir, el led parte con un color inicial: rojo, sin ningún cuerpo sobre la foto resistencia. Con forme acercamos un cuerpo al foto Resistol el color ira variando: azul, cuerpo a distancia considerable al foto Resistol; verde, cuerpo cercano al foto Resistol, y finalmente blanco, cuerpo a pulgadas del foto Resistol.
+
+**1.**
+
+Primero, el enlace en NEGATIVO y POSITIVO desde Arduino Uno a la photoboard.
+
+- Enlace desde 5V a POSITIVO en photoboard
+- Enlace desde CND a NEGATIVO en photoboard
+
+**1.2**
+
+Para el correcto funcionar del Led RGB se necesita enlazar cuatro cables desde el Arduino a la Photoboard.
+
+En DIGITAL (PWM)…
+
+- Hacer conexión con cable entre 9 a la fila D n°30
+- Hacer conexión con cable entre 10 a la fila D n°28
+- Hacer conexión con cable entre 11 a la fila D n°27
+- Conexión desde el negativo a la fila g n°29
+    
+    ![1.2.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.2.jpg)
+    
+
+**1.3**
+
+Utilizar tres resistencias de 220 para el LED RGB en la Photoboard
+
+- 1 Resistol entre la fila e n° 30 y í n° 30
+- 1 Resistol entre la fila e n° 28 e í n° 28
+- 1 Resistol entre la fila e n° 27 e í n° 27
+
+**1.4**
+
+- Led rgb en la fila L desde el n° 30 al n° 27
+    
+    ![1.4.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.4.jpg)
+    
+
+**1.5**
+
+Para el correcto funcionar del sensor se necesita la conexión desde arduino Uno mediante cables
+
+- Conexión desde Arduino Uno A0 a la fila a n°14
+- De negativo a fila a n°16
+- De positivo a la fila a n°12
+
+**1.6**
+
+Uso de un Resistol y el sensor
+
+- Resistol en la fila c n°14 al n° 12
+- Sensor en la fila d n°16 al n°14
+
+Parte dos: Buzzer, emisión de sonido.
+
+La segunda parte consta de utilizar un zumbador piesaelectrónico (buzzer) para la reproducción de un sonido particular que vaya en aumento de manera simultánea que el grado el color emitido por el led rgb (parte uno)
+
+![1.6.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.6.jpg)
+
+![1.66.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/1.66.jpg)
+
+**3.**
+
+Para la conexión del buzzer se deben utilizar dos cables entre Arduino Uno y la photoboard
+
+En DIGITAL (PWM)…
+
+- Hacer conexión con cable del n° 6 Arduino Uno a la fila g n°8
+- Conexión desde NEGATIVO a la fila g n°5
+
+**3.2**
+
+- Colocar Buzzer en la fila j POSITIVO n°8 a n°5 NEGATIVO
+    
+    ![3.22.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/3.22.jpg)
+    
+    ![3222.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/3222.jpg)
+    
+
+### Circuito Completo
+
+![circuitototal.jpg](Proyecto%20Final%20f400446d67f84a3590623dc7103f7615/circuitototal.jpg)
+
+---
+
+# **CÓDIGO**
+
+### Luz y sensor
+
+```c
+//Para el trabajo final de la asignatura de Diseño de interfaz electrónica mediante Arduino: AUD5I022-1
+//Por Randall Dávalos y Laura Simunovic Toledo.
+//Nuestro objetivo es lograr que una luz RGB led cambie de color conforme a la info percibida por un sensor de luz.
+//Simil a sensor de cercanía. 
+
+const int PinLedVerde = 10; //asignamos el pin al color verde. 
+const int PinLedRojo = 9;
+const int PinLedAzul = 11;
+
+int ValorRojo = 400;  //asignamos un valor númerico al treshold para Rojo. 
+int ValorVerde = 500;
+int ValorAzul = 600;
+int ValorBlanco = 700;
+
+int 
+
+int valorLDR = 0;  //Creamos la variable de tipo número entero para almacenar los datos recogidos del sensor analógico LDR (Light Dependant Resitor).
+int pinLDR = A0;   //Seleccionamos el pin analógico A0 como input del sensor LDR.
+
+void setup() {
+
+  pinMode(PinLedVerde, OUTPUT);
+  pinMode(PinLedRojo, OUTPUT);
+  pinMode(PinLedAzul, OUTPUT);
+  pinMode(pinBuzzer,OUTPUT);
+
+  Serial.begin(9600);
+}
+void loop() {
+  valorLDR = analogRead(pinLDR);  //Leemos el valor del pinLDR y lo guardamos en la variable creada.
+  Serial.println(valorLDR);       //Imprimimos dicho valor, comprendido entre 0 y 1023.
+
+  //queremos que conforme a la distancia que perciba el sensor, en base a la diferencia de luz, sea distinto el color que emite el Led.
+  //vamos a intentar que, comparando el ValorLDR a los valores que establecimos antes, esto funcione. 
+ if (valorLDR <= ValorRojo){
+  analogWrite(PinLedRojo,20);
+  analogWrite(PinLedVerde,0);
+  analogWrite(PinLedAzul,0);
+
+ } else if (valorLDR <= ValorVerde){
+   analogWrite(PinLedRojo,0);
+   analogWrite(PinLedVerde,50);
+   analogWrite(PinLedAzul,0);
+ } else if (valorLDR <= ValorAzul){
+   analogWrite(PinLedRojo,0);
+   analogWrite(PinLedVerde,0);
+   analogWrite(PinLedAzul,70);
+ }
+ else {
+   analogWrite(PinLedRojo,100);
+   analogWrite(PinLedVerde,100);
+   analogWrite(PinLedAzul,100);
+ }
+}
+```
+
+### Buzzer; emision de sonido
+
+Trabajamos en un archivo nuevo, en base al trabajo de la luz, agregando las secciones requeridas para agregar la funcionalidad del buzzer. 
+
+```c
+//En base al trabajo realizado en el archivo LuzySensor.ino.
+//Vamos a agregar la funcionalidad de avisador de sonido, utilizando un buzzer.
+
+const int PinLedVerde = 10;  //asignamos el pin al color verde.
+const int PinLedRojo = 9;
+const int PinLedAzul = 11;
+const int pinBuzzer = 6;
+
+int ValorRojo = 400;  //asignamos un valor númerico al treshold para Rojo.
+int ValorVerde = 500;
+int ValorAzul = 600;
+int ValorBlanco = 700;
+
+int valorLDR = 0;  //Creamos la variable de tipo número entero para almacenar los datos recogidos del sensor analógico LDR (Light Dependant Resitor).
+int pinLDR = A0;     //Seleccionamos el pin analógico A0 como input del sensor LDR.
+
+void setup() {
+
+  pinMode(PinLedVerde, OUTPUT);
+  pinMode(PinLedRojo, OUTPUT);
+  pinMode(PinLedAzul, OUTPUT);
+  pinMode(pinBuzzer, OUTPUT);
+
+  Serial.begin(9600);
+}
+void loop() {
+  valorLDR = analogRead(pinLDR);  //Leemos el valor del pinLDR y lo guardamos en la variable creada.
+  Serial.println(valorLDR);       //Imprimimos dicho valor, comprendido entre 0 y 1023.
+
+  //queremos que conforme a la distancia que perciba el sensor, en base a la diferencia de luz, sea distinto el color que emite el Led.
+  //vamos a intentar que, comparando el ValorLDR a los valores que establecimos antes, esto funcione.
+  if (valorLDR <= ValorRojo) {
+    analogWrite(PinLedRojo, 20);
+    analogWrite(PinLedVerde, 0);
+    analogWrite(PinLedAzul, 0);
+    analogWrite(pinBuzzer, 0);
+
+  } else if (valorLDR <= ValorVerde) {
+    analogWrite(PinLedRojo, 0);
+    analogWrite(PinLedVerde, 20);
+    analogWrite(PinLedAzul, 0);
+    analogWrite(pinBuzzer, 80);
+  } else if (valorLDR <= ValorAzul) {
+    analogWrite(PinLedRojo, 0);
+    analogWrite(PinLedVerde, 0);
+    analogWrite(PinLedAzul, 70);
+    analogWrite(pinBuzzer, 300);
+  } else {
+    analogWrite(PinLedRojo, 100);
+    analogWrite(PinLedVerde, 100);
+    analogWrite(PinLedAzul, 100);
+    analogWrite(pinBuzzer, 700);
+  }
+}
+```
+
+---
+
+## Conclusiones y aprendizaje:
+
+Es un proyecto interesante realizar que mostro cierta dificultad al realizarse. El trabajo consta de tres partes: el led, el sensor y el buzzer. El primer reto fue hacer funcionar el led de manera individual, siendo este lo primero en probar y donde no se utilizó un led rgb sino uno simple. apoyándonos de los códigos de clase la dificultad fue hacerlo funcionar con los elementos que precisábamos para el cumplir el objetivo propuesto. Pasar del led simple a uno rgb y que este funcionar con otro elemnto: el sensor y finalmente con el buzzer.
+
+El proyecto permite aprender la unión de distintos elementos y que funcionen en conjunto.
+
+---
+
+## Referencias y recursos utilizados para la realización del código:
+
+- LAMPARA DE MEZCLA DE COLORES, del libro ‘’Arduino, libro de proyectos startert kit’’ ( Scott Fitzgerald y Michael Shiloh), pág. 53.
+- Fernández, T. (2013). *ARDUINO PROJECTS BOOK* [PDF]. USA,
+- [ej_03_pulsador_luz_intermitenteConclusiones de montoyamoraga:](https://github.com/disenoUChile/aud5i022-2023-1/blob/main/clases/clase-04/ej_03_pulsador_luz_intermitente/ej_03_pulsador_luz_intermitente.ino)
