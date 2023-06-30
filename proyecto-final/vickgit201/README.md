@@ -35,7 +35,19 @@ Circuito en Arduino
 
 7.- Conectar la patita superior de cada luz con la ayuda de un cable a los pines 12 y 13.
 
-![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen28.png)
-![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen29.png)
+![foto 8](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen28.png)
+![foto 9](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen29.png)
+
+8.- Conectar un cable a 5 volt. 
+
+![foto 10](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen30.png)
+
+9.- Conectar un cable a GND.
+
+![foto 11](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen31.png)
+
+10.- Conectar una perilla en la columna j partiendo en la fila 2.
+
+![foto 12](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen32.png)
 
 
