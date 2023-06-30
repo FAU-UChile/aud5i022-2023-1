@@ -33,7 +33,9 @@ Circuito en Arduino
 
 ![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen27.png)
 
+7.- Conectar la patita superior de cada luz con la ayuda de un cable a los pines 12 y 13.
 
-
+![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen28.png)
+![foto 7](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen29.png)
 
 
