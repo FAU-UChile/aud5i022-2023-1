@@ -1,9 +1,13 @@
 
 ![aber-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/92988090-a4e5-4904-8af1-249cc4157196)
 
-## Documentación
+## Integrantes
 
-Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://github.com/joaquinsuazo)
+*[Gaabyu](http://github.com/Gaabyu) 
+
+*[joaquinsuazo](http://github.com/joaquinsuazo)
+
+*[Maginni](https://github.com/Maginni).
 
 # Modos Musicales de DO
 
