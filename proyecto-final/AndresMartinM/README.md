@@ -41,6 +41,12 @@ Para poder construirme es necesario:
 
 ## Proceso de fabricación 
 
+![alt](./20230621_150403.jpg "foto wonita")
+![alt](./1Sketch.jpg "foto wonita")
+![alt](./20230621_193906.jpg "foto wonita")
+![alt](./IMG-20230622-WA0000.jpg "foto wonita")
+![alt](./IMG-20230623-WA0007.jpg "foto wonita")
+
 ## Código
 Basado en códigos ejemplo de Arduino [Knob](https://github.com/arduino-libraries/Servo/tree/master/examples/Knob) y [Sweep](https://github.com/arduino-libraries/Servo/tree/master/examples/Sweep)  
 
@@ -85,3 +91,5 @@ void moverServos() {
   delay(15); //Dar una pausa entre cada vez que se mueven los servomotores
 }
 ```
+## Conclusiones
+
