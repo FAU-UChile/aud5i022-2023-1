@@ -12,6 +12,8 @@ Mediante una segunda perilla se podrá cambiar la velocidad de las notas que se 
 A cada modo musical se le asignara un color el cual será manifestado a traves de una luz LED RGB y sera coherente a las emociones que transmiten los modos musicales. 
 
 ## Materiales
+- 1 Hardware de Arduino
+- 1 Breadboard
 - 1 Potenciometro
 - 1 Buzzer o altavoz
 - 3 botones
