@@ -34,6 +34,9 @@ GND = -
 A0 = 
 A1 =
 
-### Perilla 1
+#### Potenciómetro 1 conectado en: 1, 2 y 3
+1 = +
 
+
+####
 
