@@ -104,6 +104,7 @@ Luego de esto se volvió a verificar la conexión de los LEDs para asegurarse qu
 --------Este paso se replico 3 veces mas para formas así los 4 niveles que conforman el cubo--------
 
 ---- Clase 23-06 ----
+
 Reunión para trabajo autónomo y avanzar en proyecto.
 Conformados los 4 niveles esto se unirán mediante alambres verticales que atravesarán los niveles, pasando por los círculos realizados en los ánodos de los LEDs anteriormente, siendo un total de 16 alambres verticales.
 Asegurando que todos los LED de cada nivel están conectados por el lado negativo (cátodo), y las columnas se conectan por el lado positivo (ánodo).
@@ -115,8 +116,9 @@ Finalizado el cubo se recortaron los alambres sobrantes y se continuó con la co
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/7c9e6504-4326-45b6-92de-0beb5d6a4d07)
 
 Para iniciar conectamos al arduino con las resistencias para generar todas las conexiones positivas de cada columna en un sentido vertical, ya que como se ve en el esquema se alimentará un LED y todos sus pares directamente superiores. 
-Y las conexiones negativas van alimentadas por nivel horizontal dando control de la corriente que recorre los pisos del cubo, esto es lo que permitirá potenciar columnas de LEDs pero que no todos se enciendan.
+Y las conexiones negativas van alimentadas por nivel horizontal dando control de la corriente que recorre los pisos del cubo, esto es lo que permitirá potenciar columnas de LEDs pero que no todos se enciendan al no permitir que se complete el circuito eléctrico.
 
 ![image](https://github.com/Toomanypanchos/aud5i022-2023-1/assets/89993556/c6c676a5-9bee-4795-b8f8-a3ce7ad18578)
 
+Respectivamente los 16 cables verticales se conectarán al Arduino en sus 14 pines digitales y 2 análogos y los 4 pines análogos restantes usaran para las conexiones horizontales. 
 
