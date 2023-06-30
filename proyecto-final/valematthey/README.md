@@ -74,8 +74,7 @@ Editor de lifespam
 
 
 
-[![VER](fotos_videos/VID_37930329_155409_922.mp4)](VID_37930329_155409_922.mp4)
-
+[![Watch the video](VID_37930329_155409_922.mp4)](VID_37930329_155409_922)
 
 
 
