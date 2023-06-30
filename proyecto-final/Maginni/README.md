@@ -21,6 +21,7 @@ Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://
 
 ## Registro de avance 1
 
+https://github.com/joaquinsuazo/aud5i022-2023-1/blob/main/proyecto-final/Maginni/img/img-avance-1.jpeg
 
 ## Registro de avance 2
 
