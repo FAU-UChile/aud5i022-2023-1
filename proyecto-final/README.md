@@ -1,13 +1,7 @@
 Hola, bienvenido. 
 Esta es la documentacion del proyecto final !
-Estoy trabajando con [JustPili1](https://github.com/JustPili1) y [valefuentes](https://github.com/valefuentes)
+Estoy trabajando con [kquita](https://github.com/kquita) y [valefuentes](https://github.com/valefuentes)
 
-  #### Contenidos de este repositorio 
-
-+
-+
-+
-+
 _____
 # Acerca de 
 Proyecto ETCH A SKETCH: JUGUETE ANÁLOGO EN LA ERA DIGITAL- visualización y principios de interfaz interactiva
