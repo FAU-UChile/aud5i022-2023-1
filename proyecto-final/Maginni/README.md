@@ -2,6 +2,7 @@ Documentación
 Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://github.com/joaquinsuazo)
 
 Reproductor Arduino de escalas musicales de la nota DO
+
 Integrantes: Antonio Ceron - Gabriela Echenique - Joaquin Suazo
 
 Este codigo sirve para reproducir en un buzzer las escalas [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
@@ -9,8 +10,6 @@ Al presionar alguno de los botones y desplazarse por el rango de el potenciometr
 
 Materiales: 1 Potenciometro - 1 Buzzer 3V - 3 Botones - 2 Cables Rojos - 6 Cables Verdes - 4 Cables Amarillos - 1 Cable Blanco
 
-
-A cada modo musical se le asignara un color el cual será manifestado a traves de una luz LED RGB y sera coherente a las emociones que transmiten los modos musicales. 
 
 Registro de avance 1
 ![WhatsApp Image 2023-06-02 at 17 46 14](https://github.com/Maginni/aud5i022-2023-1/assets/115827031/e2b45cc0-0238-4edd-b10b-58c880953c19)
