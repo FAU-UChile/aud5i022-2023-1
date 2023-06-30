@@ -153,7 +153,7 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
 3. Conectar la primera mitad de la *'Protoboard'* con la segunda mitad. (Debido a que no le llega energía a toda la *'Protoboard'*)
 *
 ![](imagenes/Imagenes%20arduino/2.jpeg)
-*
+
 4. Agregar 'Botones' a la *'Protoboard'*
    * (En este caso los ubicamos en la parte derecha, la idea es ubicarlos donde esten comodos para las manos ya que serán utilizados para hacer *'play'* *'pause'* a los sonidos de "SCRATCH".
   ![](imagenes/Imagenes%20arduino/2.1.jpeg)
@@ -251,6 +251,22 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
 
 
 *![](imagenes/Imagenes%20arduino/20.jpeg)
+
+# FUNCIONES
+## BOTONES
+* Cada uno de los botones al mantenerlos presionados reproducen efectos de "SCRATCHING" de Hip-Hop que ejecutan los DJ cuando rayan los vinilos.
+*
+## INTERRUPTORES
+* Cada uno de los interruptores cumple la función 'Play' y 'Pause' de cada una de las pistas; *'baserap.mp3'* y *'vocal'* de Kase.O
+*
+## POTENCIOMETROS
+* Cada uno de los potenciometros distorsiona el 'Speed' o velocidad de las pistas anteriormente mencionadas.
+*
+## POTENCIOMETRO LINEAL 
+* Este potenciómetro mezcla las dos pistas;
+* A la izquierda esta la pista *'baserap.mp3'*
+* A la derecha esta la pista *'vocal'* de Kaser.O
+* Y al medio se mezclan ambas. 
 
   
 
