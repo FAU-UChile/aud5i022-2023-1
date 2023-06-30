@@ -9,15 +9,16 @@
 - sección: 01
 - créditos: 03
 - semestre: primer semestre 2023
-- profesor: [aarón montoya-moraga](https://montoyamoraga.io)
-- ayudante: ignacio passalacqua
+- profesor: [aarón montoya-moraga](https://github.com/montoyamoraga)
+- ayudante: [ignacio passalacqua](https://github.com/ipassala)
 - estudiantes inscritos: 32
-- versión anterior del curso: https://github.com/montoyamoraga/aud5i022-2022-1
+- versión anterior del curso: [https://github.com/disenoUChile/aud5i022-2022-1](https://github.com/disenoUChile/aud5i022-2022-1)
 
 ## repositorio
 
 - [clases](./clases/): una subcarpeta por cada clase
 - [trabajos](./trabajos/): enunciados de trabajos
+- [proyecto-final](./proyecto-final): una subcarpeta por cada entrega grupal de proyecto final
 
 ## calendario
 

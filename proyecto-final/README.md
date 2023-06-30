@@ -1,3 +1,32 @@
-# proyecto-final
+# examen
 
-todo
+estudiantes:
+
+- [AmSayen](./AmSayen)
+- [AndresMartinM](./AndresMartinM)
+- [BenjaIeg](./BenjaIeg)
+- [JustPili1](./JustPili1)
+- [KatherineMachuca](./KatherineMachuca)
+- [LinaHerrera01](./LinaHerrera01)
+- [LucasMagnani1](./LucasMagnani1)
+- [Maginni](./Maginni)
+- [RandallDavalos](./RandallDavalos)
+- [Toomanypanchos](./Toomanypanchos)
+- [camidonoso](./camidonoso)
+- [chicomaker](./chicomaker)
+- [gaabyu](./gaabyu)
+- [hungrybagu](./hungrybagu)
+- [joaquinsuazo](./joaquinsuazo)
+- [jota-pe-ge](./jota-pe-ge)
+- [kquita](./kquita)
+- [malparidv](./malparidv)
+- [maridiazv](./maridiazv)
+- [noeliapsm](./noeliapsm)
+- [pazzzto](./pazzzto)
+- [querunina](./querunina)
+- [sofiachaav](./sofiachaav)
+- [sofiafuentesd](./sofiafuentesd)
+- [valematthey](./valematthey)
+- [vanesaangulo](./vanesaangulo)
+- [vickgit201](./vickgit201)
+  
