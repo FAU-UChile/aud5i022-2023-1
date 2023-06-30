@@ -1,13 +1,14 @@
 Documentación
 Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://github.com/joaquinsuazo)
 
-Instrumento Musical Arduino - Modos Musicales 
+Reproductor Arduino de escalas musicales de la nota DO
+Integrantes: Antonio Ceron - Gabriela Echenique - Joaquin Suazo
 
-En este proyecto se hará uso de arduino para desarrollar un instrumento que aleatoriamente reproduzca notas musicales de 3 de los 7 modos musicales griegos: Jónico, Dórico, Frigio, Lidio, Mixolidio, Eólico y Locrio.
+Este codigo sirve para reproducir en un buzzer las escalas [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
+Al presionar alguno de los botones y desplazarse por el rango de el potenciometro, se reproduciran las notas de la escala, las cuales, apareceran en el monitor serial en el formato: Nota (Escala) (ValorPotenciometro)
 
-Mediante una perilla se podrá cambiar entre los distintos modos, lo cual cambiara el repertorio de notas a reproducir.
+Materiales: 1 Potenciometro - 1 Buzzer 3V - 3 Botones - 2 Cables Rojos - 6 Cables Verdes - 4 Cables Amarillos - 1 Cable Blanco
 
-Mediante una segunda perilla se podrá cambiar la velocidad de las notas que se reproducen: Blanca, Negra, Corchea, Semicorchea
 
 A cada modo musical se le asignara un color el cual será manifestado a traves de una luz LED RGB y sera coherente a las emociones que transmiten los modos musicales. 
 
