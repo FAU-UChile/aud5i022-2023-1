@@ -50,4 +50,19 @@ Circuito en Arduino
 
 ![foto 12](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen32.png)
 
+11.- Conectar la patita inferior de la perilla a tierra con la ayuda de un cable.
+
+![foto 13](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen33.png)
+
+12.- Conectar la patita del medio de la perilla con la ayuda de un cable a A0.
+
+![foto 14](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen34.png)
+![foto 15](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen35.png)
+
+13.- Conectar la patita superior de la perilla a 5 volts con la ayuda de un cable.
+
+![foto 16](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen36.png)
+![foto 17](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen37.png)
+
+
 
