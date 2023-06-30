@@ -78,6 +78,8 @@ Agregamos un *'interruptor'* que funcione como interfaz para hacer play y pause.
 ##### Tercera solución; 
 * 
 
+# CODIGO FINAL
+![alt text] (https://github.com/sofiafuentesd/aud5i022-2023-1/blob/main/proyecto-final/sofiafuentesd/imagenes/Imagenes%20arduino/20.jpeg "Vista final"
   
 
 
