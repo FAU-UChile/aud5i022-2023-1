@@ -18,3 +18,7 @@ Pantalla en funcionamiento
 Cambio a fotoresistor
 ![Imagen de WhatsApp 2023-06-29 a las 21 15 48](https://github.com/querunina/aud5i022-2023-1/assets/128185880/d48d4811-a2f7-4c87-a02b-0a25881bf99a)
 
+La decisión final fue quedarse con fotoresistor y botones a a vez. 
+
+https://github.com/querunina/aud5i022-2023-1/assets/128185880/786d507a-bac1-4a17-bda5-7724637ef922
+
