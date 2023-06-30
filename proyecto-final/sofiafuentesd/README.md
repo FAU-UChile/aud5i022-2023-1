@@ -24,7 +24,10 @@ Reverb (https://processing.org/reference/libraries/sound/Reverb.html)
 
 En el avance n° 2 (16 de junio)
 
-Repasamos el avance de la clase del día 02 de junio, en donde habíamos encontrado en la página de processing algunos códigos que podrían servir para nuestro proyecto
+
+
+
+// Repasamos el avance de la clase del día 02 de junio, en donde habíamos encontrado en la página de processing algunos códigos que podrían servir para nuestro proyecto
 Luego nos fuimos a la aplicación de processing en el pc y en: Herramientas > Libraries > Buscamos ‘Sound’ e instalamos “Sound| Provides a simple way to work with audio.” Autor “The Processing Foundation” 
 Luego en Processing > Archivo > Ejemplos: Estuvimos verificando que ejemplos de códigos podían servir. 
 El primer ejemplo que analizamos fue: “AudioSampleManipulation” Aquí investigamos que significaba ‘int’ , ‘float’, ‘amp’, ‘loop’, ‘mousePressed’ y ‘KeyPressed’.
@@ -40,9 +43,9 @@ Avance n° 3 (23 de junio)
 // Durante la semana de "trabajo autonomo" 
 Seguimos avanzando en base a los códigos que encontramos en 'Libraries' de Processing 
 El ejemplo "SimplePlayback" como dice en su descripción:
-"* This is a simple sound file player. Use the mouse position to control playback
-// Speed, amplitude and stereo panning."
+"* This is a simple sound file player. Use the mouse position to control playback. Speed, amplitude and stereo panning."
 Nos ayudó a encontrar una manera de jugar con un sonido > "vibraphon.aiff" 
-En este codigo la interfaz para distorsionar el sonido era mediante el mouse.
+En este codigo la interfaz para distorsionar el sonido era mediante el mouse. 
 Luego de agregar otro sonido a este codigo > "basederap.mp3"
+Agregamos un boton que funcionara como in
 Seguimos solucionando el problema que nos arrojaba procesing cuando intentabamos hacer funcionar el codigo de 'S
