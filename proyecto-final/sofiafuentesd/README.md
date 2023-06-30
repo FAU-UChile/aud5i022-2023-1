@@ -1,6 +1,6 @@
 # PROYECTO "JUEGO DE DJ" 
 ## INTRODUCCIÓN AL "DJING"
-###### *https://es.wikipedia.org/wiki/Turntablism*
+###### información desde *https://es.wikipedia.org/wiki/Turntablism*
 El turntablism (también llamado DJing) es el arte de arreglar o crear música mediante efectos de sonido y manipulación de las rutinas de rotación y lectura de los discos de vinilo sobre un plato giradiscos. Turntablism se podría traducir como «el arte de hacer girar "las tormentas" (de casas)». Se llama turntable (tornamesa) al plato giradiscos. El turntablism es uno de los cuatro pilares básicos de la cultura Hip-Hop y uno de los orígenes de las técnicas de música dance actuales.
 
 ## PROCESO DE TRABAJO EN ARDUINO Y PROCESSING
