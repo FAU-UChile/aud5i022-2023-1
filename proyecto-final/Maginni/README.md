@@ -5,10 +5,11 @@ Reproductor Arduino de escalas musicales de la nota DO
 
 Integrantes: Antonio Ceron - Gabriela Echenique - Joaquin Suazo
 
-Este codigo sirve para reproducir en un buzzer las escalas [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
+Este codigo sirve para reproducir en un buzzer las escalas a una frecuencia de 440 hz [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
 Al presionar alguno de los botones y desplazarse por el rango de el potenciometro, se reproduciran las notas de la escala, las cuales, apareceran en el monitor serial en el formato: Nota (Escala) (ValorPotenciometro)
 
-Materiales: 1 Potenciometro - 1 Buzzer 3V - 3 Botones - 2 Cables Rojos - 6 Cables Verdes - 4 Cables Amarillos - 1 Cable Blanco
+Materiales: 1 Placa Arduino Uno - 1 Protoboard - 1 Potenciometro - 1 Buzzer 3V - 3 Botones - 2 Cables Rojos - 6 Cables Verdes - 4 Cables Amarillos - 1 Cable Blanco
+Software: Arduino IDE 2.1.0 
 
 
 Registro de avance 1
