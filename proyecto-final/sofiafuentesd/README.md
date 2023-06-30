@@ -139,7 +139,7 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
  
   
 agregar imagen 1 
-![1](https://github.com/sofiafuentesd/aud5i022-2023-1/blob/main/proyecto-final/sofiafuentesd/imagenes/Imagenes%20arduino/1.jpegimagenes/1.JPG)!
+![1](imagenes/imagenes%20arduino/1.jpeg)
 
 
 1. Unir la *'Protoboard'* al *'Arduino'*
