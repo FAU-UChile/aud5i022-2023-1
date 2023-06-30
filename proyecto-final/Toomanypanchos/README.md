@@ -136,15 +136,14 @@ https://www.youtube.com/watch?v=spXlnHxGb-E
 
 -------- Ejemplo codigo --------
 
-int led[] = {13,12,11,10,9,8,7,6,5,4,3,2,1,0,A4,A5}; //Salidas
-//de las columnas
-int lvl[] = {A3,A2,A1,A0}; //Salidas
-//de las filas
-int y; //Variable
-//para encender las filas
+int led[] = {13,12,11,10,9,8,7,6,5,4,3,2,1,0,A4,A5}; //Salidas de las columnas
 
-void setup() { //En esta parte se establece la
-//configuración
+int lvl[] = {A3,A2,A1,A0}; //Salidas de las filas
+
+int y; //Variable para encender las filas
+
+void setup() { //En esta parte se establece la configuración
+
  for (int x = 0; x < 16; x ++) { //Declarar los pines de las columnas como salidas
  pinMode(led[x], OUTPUT);
  }
@@ -154,25 +153,33 @@ void setup() { //En esta parte se establece la
 }
 
 void loop() { //En esta parte se repite la secuencia infinitas veces
+
  for (int x = 0; x < 4; x++) { //Cada animación se repite 4 veces
+ 
  uxu(); //Se llama a la función uxu
  }
+ 
  for (int x = 0; x < 4; x++) {
  pxp(); //Se llama a la función pxp
  }
+ 
  for (int x = 0; x < 4; x++) {
  cubito(); //Se llama a la función cubito
  }
+ 
  for (int x = 0; x < 4; x++) {
  cubote();//Se llama a la función cubote
  }
+ 
  for (int x = 0; x < 4; x++) {
  itz(); //Se llama a la función itz
  }
+ 
  for (int x = 0; x < 4; x++) {
  ser(); //Se llama a la función ser
  }
 }
+
 //Esta función permite establecer valores de encendido y apagado a cada columna,donde 1 es encendido y 0 es apagado
 void LED (int h, int i, int j, int k, int l, int m, int n, int o, int p, int q,
 int r, int s, int t, int u, int v, int w) {
@@ -193,6 +200,7 @@ int r, int s, int t, int u, int v, int w) {
  digitalWrite (led[14], v);
  digitalWrite (led[15], w);
 }
+
 void LVL (int h, int i, int j, int k) { //Esta función permite establecer valores de encendido y apagado a cada fila
  digitalWrite (lvl[0], h);
  digitalWrite (lvl[1], i);
@@ -213,6 +221,7 @@ void level() { //En esta función se establecen los valores para las filas donde
  case 9: LVL (1, 1, 0, 0); break; //Las últimas dos
  }
 }
+
 //En esta animación prende led por led
 void uxu() {
  int t = 100; //Esta variable determina el tiempo que espera el Arduino para
@@ -237,6 +246,7 @@ void uxu() {
  LED (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1); delay(t);
  }
 }
+
 //En esta animación prende fila por placa
 void pxp() {
  int t = 500; //Esta variable determina el tiempo que espera el Arduino para
