@@ -1,4 +1,5 @@
 
+![Rduno-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/e85df209-6722-493f-bb7c-c27f1413680f)
 ## Documentación
 Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://github.com/joaquinsuazo)
 
