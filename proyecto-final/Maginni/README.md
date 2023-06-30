@@ -7,7 +7,7 @@ Estoy trabajando con [Gaabyu](http://github.com/Gaabyu) y [joaquinsuazo](http://
  Al presionar alguno de los botones y desplazarse por el rango de el potenciometro, se reproduciran las notas de la escala, las cuales, apareceran en el monitor serial en el formato: Nota (Escala) (ValorPotenciometro)
 
 ## Materiales
-- 1 Hardware de Arduino 1
+- 1 Hardware de Arduino 1 (Version Software 2.1.0)
 - 1 Breadboard
 - 1 Potenciometro
 - 1 Buzzer o altavoz
