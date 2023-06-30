@@ -1,5 +1,5 @@
 // Reloj Pomodoro Adrian Vasquez Camila Donoso
-// Avance 1
+// Entrega Proyecto Final
 
 #define work 0
 #define shortBreak 1
