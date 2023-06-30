@@ -8,7 +8,7 @@ Estoy trabajando con [BenjaIeg] (https://github.com/BenjaIeg)
 * Nuestra primera idea es trabajar con una suerte de "juego de DJ" de manera que existe una biblioteca de instrumentales de hip hop en processing y que con el arduino poder activar sonidos de scratch. 
 Estuvimos investigando en la pagina de Processing (https://processing.org/reference/libraries/sound/index.html) que heramientas existen para esto. 
 Las que investigamos fueron: 
-SoundFile (https://processing.org/reference/libraries/sound/SoundFile.html) 
+** SoundFile (https://processing.org/reference/libraries/sound/SoundFile.html) 
 AudioSample (https://processing.org/reference/libraries/sound/AudioSample.html)
 Jump (https://processing.org/reference/libraries/sound/AudioSample_jump_.html)
 Loop (https://processing.org/reference/libraries/sound/AudioSample_loop_.html)
@@ -25,7 +25,7 @@ Reverb (https://processing.org/reference/libraries/sound/Reverb.html)
 
 
 
-## Avance n° 2 (16 de junio)
+### Avance n° 2 (16 de junio)
 
 
 
