@@ -1,7 +1,7 @@
 Estoy trabajando con [jota-pe-ge](https://gibhub.com/jota-pe-ge)
 
 * carpeta [Fotos y videos](Fotos y videos)
-* archivo 1 [physics-g09ac840c2_carousel.png]
+  * archivo 1 [physics-g09ac840c2_carousel.png]
 
 
 ### Proyecto Final
