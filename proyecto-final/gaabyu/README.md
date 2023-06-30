@@ -10,7 +10,7 @@
 
 *[Maginni](https://github.com/Maginni).
 
-# Proyecto-Modos Musicales de DO
+# Proyecto- Instrumento Modos Musicales de DO
 
  Este codigo sirve para reproducir en un buzzer las escalas [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
  Al presionar alguno de los botones y desplazarse por el rango de el potenciometro, se reproduciran las notas de la escala, las cuales, apareceran en el monitor serial en el formato: Nota (Escala) (ValorPotenciometro)
