@@ -1,0 +1,113 @@
+PROYECTO ABEJORRO 
+Docentes Aaron Montoya e Ignacio Passalacqua, integrantes: Sofía Chávez y María Díaz, 30-06-2023
+
+¿QUE ES?
+El “Proyecto abejorro” es una propuesta de la combinación de sistemas de interfaces análogas y digitales mediante el objetivo común de la concientización de la fauna autóctona de la zona centro-sur de chile.
+
+SISTEMAS A UTILIZAR:
+1)Sistema Arduino: Arduino es una plataforma de software de código abierto que permite a personas y comunidades desarrollar prototipos electrónicos y dispositivos interactivos, permitiendo crear proyectos con infinitas posibilidades.
+El medio principal del desarrollo de esta propuesta es el sistema Arduino, en especifico, las placas y sus accesorios.
+
+2)Sistema analogo, biela: El sistema biela es un mecanismo análogo de fuerzas, que básicamente transforma un movimiento circular uniforme en un movimiento de traslación alternativo, o viceversa. Es el mismo sistema que utilizan los pistones de un auto.
+ El medio secundario del desarrollo de esta propuesta es el sistema biela.
+
+ABEJORROS: 
+-Especie de insecto perteneciente al genero Bombus, siendo este uno de los mas grandes dentro del género.
+-Habita principalmente en bosques templados, en Chile desde la zona centro-sur hasta Puerto Williams, y en Argentina desde Buenos Aires hasta Tierra del Fuego.
+-Su dieta, al igual que otros tipos de abejas, consiste principalmente en polen y néctar de flores.
+
+Es una especie de insecto amable y carismática, es decir, le gusta la convivencia con otras especies y no ataca a menos que sea provocado.
+Son mundialmente conocidos como un polinizador natural de la flora nativa y agricultura del centro sur de Chile y el sur de Argentina.
+
+Como dato curioso: En algunas comunidades del sur de Chile a los abejorros negros (europeos) se les relacionaba con la mala suerte, mientras que a los rojos (chilenos) con la buena suerte, cuando uno entra a tu casa se dice: «Abejorro rojo, buenas noticias traigas y si no las traes, al suelo te caigas».
+
+Lamentablemente, en el año 2006 se comenzó a difundir la alarmante situación de los abejorros chilenos: PELIGRO DE EXTINCION
+
+PRINCIPALES CAUSAS:
+A comienzos de 1997 las empresas de fertilizantes comenzaron a importar al cono sur de América especies exóticas de abejorros extranjeros, como el abejorro de cola blanca europeo (Bombus Terrestris) y el Bombus Ruderatus, para servir como polinizadores agrícolas. Ambas especies son altamente invasivas y agresivos, por lo que en el año 2006 se comenzaron a difundir los informes que alertaban el peligro que corría la población de abejorros chilenos, disminuyendo cada año mientras aumentaba la invasión de abejorros extranjeros en los bosques nativos.
+-Mueren principalmente por ataques de abejorros extranjeros.
+-No tienen mecanismos de defensa para combatir enfermedades y parásitos contagiados por los abejorros extranjeros.
+
+ABEJORROS Y ARDUINO
+Ambos, son sistemas de procesos y conexiones que funcionan en pro de un objetivo, de mantener la paz y armonía de sus componentes, tanto de forma orgánica como eléctrica. La electricidad también es una forma de energía viva que corre, se desplaza y se alimenta. Ambos sistemas además pueden compartir características sensoriales, como el sonido que emiten cuando viven.
+Oportunidad: demostrar todo lo anterior y dar a conocer sobre problemáticas medioambientales actuales, que incluyen a la fauna autóctona y a nosotros mismos.
+
+MATERIALES:
+Placa Arduino
+Protoboard
+Cable USB de conexión a Arduino 
+Motor Servo
+10 cables 
+1 resistencia de 22R
+1 botón pulsador
+1 condensador electrolítico
+
+CODIGO DE PROGRAMACIÓN:
+// "Codigo Abejorro", codigo para proyecto final, funciones para realizar vueltas de 180° en motor servo de arduino 
+// integrantes: Maria Diaz y Sofia Chavez
+// fecha de ultima modificacion 21-06-2023
+
+#include<Servo.h>
+Servo myServo;
+
+int potVal;
+int angle;
+int modo = 0;
+int estadoBoton = 0;
+int estadoBotonPrevio = 0;
+
+// variables para movimiento del motor Servo
+int anguloActual = 0;
+int anguloPasito = 10;
+int anguloDireccion = 1;
+int anguloMinimo = 0;
+int anguloMaximo = 179;
+int anguloPausa = 15;
+
+void setup() {
+  // put your setup code here, to run once:
+ 
+ myServo.attach(8);
+ Serial.begin(9600);
+
+}
+
+void loop() {
+
+estadoBoton = digitalRead(2);
+
+if(estadoBoton == 1 && estadoBotonPrevio == 0){
+   if(modo == 0){
+   modo = 1;
+  }
+   else if(modo == 1){
+   modo = 0;
+  }
+}
+
+estadoBotonPrevio = estadoBoton;
+
+if(modo == 1){
+  // instrucciones para que el motor se mueva dependiendo del estado del boton
+  myServo.write(anguloActual);
+  delay(anguloPausa);
+  // instrucciones para actualizar la siguiente vuelta
+  anguloActual = anguloActual + anguloDireccion * anguloPasito;
+
+ if (anguloActual > anguloMaximo) {
+    anguloDireccion = -1;
+  }
+
+ if (anguloActual < anguloMinimo) {
+     anguloDireccion = 1;
+  }
+}
+
+else if(modo == 0){
+
+}
+
+Serial.println(modo);
+delay(50);
+
+}
