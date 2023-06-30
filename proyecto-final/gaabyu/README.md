@@ -1,5 +1,5 @@
 
-![aber-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/92988090-a4e5-4904-8af1-249cc4157196)
+![aber2-100](https://github.com/Gaabyu/aud5i022-2023-1/assets/128186062/91847777-00cb-4597-9f6f-ca16a5516174)
 
 ## Integrantes
 
@@ -9,7 +9,7 @@
 
 *[Maginni](https://github.com/Maginni).
 
-# Modos Musicales de DO
+# Proyecto-Modos Musicales de DO
 
  Este codigo sirve para reproducir en un buzzer las escalas [ DO Jonica - DO Eolica - DO Locria ] mediante el uso de un potenciometro y botones. 
  Al presionar alguno de los botones y desplazarse por el rango de el potenciometro, se reproduciran las notas de la escala, las cuales, apareceran en el monitor serial en el formato: Nota (Escala) (ValorPotenciometro)
