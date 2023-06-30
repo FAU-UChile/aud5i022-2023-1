@@ -12,7 +12,8 @@ El proyecto planteado es la emisión y cambio gradual de luz emitido por un led 
 
 - 1 Arduino Uno
 - 1 Photoboard
-- 4 Resistencias de 220
+- 3 Resistencias de 220
+- 1 Resistencia de 1k 
 - 1 Led rgb
 - 1 zumbador piezoeléctrico
 - 1 pulsador
@@ -60,9 +61,9 @@ En DIGITAL (PWM)…
 
 Utilizar tres resistencias de 220 para el LED RGB en la Photoboard
 
-- 1 Resistol entre la fila e n° 30 y í n° 30
-- 1 Resistol entre la fila e n° 28 e í n° 28
-- 1 Resistol entre la fila e n° 27 e í n° 27
+- 1 Resistol entre la fila e n° 30 y i n° 30
+- 1 Resistol entre la fila e n° 28 e i n° 28
+- 1 Resistol entre la fila e n° 27 e i n° 27
 
 **1.4**
 
@@ -81,7 +82,7 @@ Para el correcto funcionar del sensor se necesita la conexión desde arduino Uno
 
 **1.6**
 
-Uso de un Resistol y el sensor
+Uso de un Resistol de 1k y el sensor
 
 - Resistol en la fila c n°14 al n° 12
 - Sensor en la fila d n°16 al n°14
@@ -244,7 +245,7 @@ void loop() {
 
 Es un proyecto interesante realizar que mostro cierta dificultad al realizarse. El trabajo consta de tres partes: el led, el sensor y el buzzer. El primer reto fue hacer funcionar el led de manera individual, siendo este lo primero en probar y donde no se utilizó un led rgb sino uno simple. apoyándonos de los códigos de clase la dificultad fue hacerlo funcionar con los elementos que precisábamos para el cumplir el objetivo propuesto. Pasar del led simple a uno rgb y que este funcionar con otro elemnto: el sensor y finalmente con el buzzer.
 
-El proyecto permite aprender la unión de distintos elementos y que funcionen en conjunto.
+El proyecto permite aprender la unión de distintos elementos, en este caso, tres elementos con distinto comportamiento y que funcionen en conjunto.
 
 ---
 
