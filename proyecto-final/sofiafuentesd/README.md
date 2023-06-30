@@ -4,7 +4,7 @@
 ### Avance n° 1 (02 de junio)
 
 ###### *yeauh yeauh*
-Estoy trabajando con [BenjaIeg] (https://github.com/BenjaIeg)
+Estoy trabajando con [BenjaIeg] (https://github.com/BenjaIeg).
 Nuestra primera idea es trabajar con una suerte de "juego de DJ" de manera que existe una biblioteca de instrumentales de hip hop en processing y que con el arduino poder activar sonidos de scratch. 
 Estuvimos investigando en la pagina de Processing (https://processing.org/reference/libraries/sound/index.html) que heramientas existen para esto. 
 Las que investigamos fueron: 
