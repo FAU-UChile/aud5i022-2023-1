@@ -42,10 +42,17 @@ Quedamos en solucionarlo pronto.
 Avance n° 3 (23 de junio)
 // Durante la semana de "trabajo autonomo" 
 Seguimos avanzando en base a los códigos que encontramos en 'Libraries' de Processing 
-El ejemplo "SimplePlayback" como dice en su descripción:
-"* This is a simple sound file player. Use the mouse position to control playback. Speed, amplitude and stereo panning."
+El ejemplo "SimplePlayback" como dice en su descripción;
+"This is a simple sound file player. Use the mouse position to control playback. Speed, amplitude and stereo panning."
 Nos ayudó a encontrar una manera de jugar con un sonido > "vibraphon.aiff" 
 En este codigo la interfaz para distorsionar el sonido era mediante el mouse. 
+Y el sonido comienza a reproducirse inmediatamente al activar el codigo, pero sin que hubiera una interfaz específica que le hiciera 'play' o 'pause' solo al sonido.
+* Primer paso;
 Luego de agregar otro sonido a este codigo > "basederap.mp3"
-Agregamos un boton que funcionara como in
-Seguimos solucionando el problema que nos arrojaba procesing cuando intentabamos hacer funcionar el codigo de 'S
+Agregamos un 'boton' que funcione como interfaz para hacer play y pause. Con el código 'Sample.Play' y 'Sample.Pause' en la sección de "VoidDraw"
+* Primer problema y solución; Seguimos solucionando el problema que nos arrojaba procesing cuando intentabamos hacer funcionar el codigo de 'Sample.Pause' con audios cortos. Lo cual logramos mejorar agregando un audio más largo que no hiciera que el loop del audio se saturara. 
+(https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/ultimoavancebotonperilla/perillaybotonmusicayarduino/perillaybotonmusicayarduino.pde)
+
+*Segundo paso; 
+
+
