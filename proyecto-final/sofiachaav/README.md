@@ -1,8 +1,14 @@
 probando uwu
 Estoy trabajando con [maridiazv](https://github.com/maridiazv), avances en su perfil :D
+
 Docentes Aaron Montoya e Ignacio Passalacqua, integrantes: Sofía Chávez y María Díaz, 30-06-2023
 
+PROYECTO ABEJORRO
+
+![image](https://github.com/sofiachaav/aud5i022-2023-1/assets/129554344/a9bda836-7a34-4480-b84a-140918c765d0)
+
 ¿QUE ES?
+
 El “Proyecto abejorro” es una propuesta de la combinación de sistemas de interfaces análogas y digitales mediante el objetivo común de la concientización de la fauna autóctona de la zona centro-sur de chile.
 
 SISTEMAS A UTILIZAR
@@ -33,6 +39,7 @@ En algunas comunidades del sur de Chile a los abejorros negros (europeos) se les
 ![image](https://github.com/sofiachaav/aud5i022-2023-1/assets/129554344/31bc4d30-1315-41a2-aca9-29f482020e30)
 
 PELIGRO DE EXTINCION 
+
 Principal causas:
 A comienzos de 1997 las empresas de fertilizantes comenzaron a importar al cono sur de América especies exóticas de abejorros extranjeros, como el abejorro de cola blanca europeo (Bombus Terrestris) y el Bombus Ruderatus, para servir como polinizadores agrícolas. Ambas especies son altamente invasivas y agresivos, por lo que en el año 2006 se comenzaron a difundir los informes que alertaban el peligro que corría la población de abejorros chilenos, disminuyendo cada año mientras aumentaba la invasión de abejorros extranjeros en los bosques nativos.
 
@@ -48,7 +55,8 @@ FOTOS PROCESO
 
 SISTEMA DE INTERFAZ ELECTRONICA
 
-Materiales:
+MATERIALES
+
 Placa Arduino, Protoboard, Cable USB de conexión a Arduino , Motor Servo, 10 cables , 1 resistencia de 22R, 1 botón pulsador, 1 condensador electrolítico.
 
 DIAGRAMA
