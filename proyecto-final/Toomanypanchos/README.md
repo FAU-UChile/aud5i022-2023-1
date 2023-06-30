@@ -40,7 +40,7 @@ Definición clara de Proyecto, planificación y cotización de materiales.
 Realizar un cubo de 4x4 con LEDs que permita mediante código generar patrones visuales. 
 Este proyecto nos pareció interesante, primeramente porque como equipo nos pareció un desafío que al mismo tiempo nos permitía movernos en un área que ya hemos conocido en el curso, un desafío, dada la cantidad de LEDs con los que vamos a trabajar, con un total de 64, la necesidad de soldar tanto los LEDs como alambres que aparte de generar estructura servirán como conductores dentro del circuito, por lo que tendremos que ser muy metódicos a la hora de realizar correctamente las conexiones y evitar un posible traslape de corriente entre tantos cables.
 
-Deci
+Decidimos no usar la tira LED dado que pese a facilitar el control y el nivel de conexiones que debíamos realizar, sus dimensiones podían entorpecer la visualización del proyecto ya que los LEDs en tiras vienen recubiertos por un plástico que obstaculiza la limpieza del proyecto.
 
 Planificación:
 -	16/06	definir claramente proyecto, evaluando requerimientos y cotizarlos.
