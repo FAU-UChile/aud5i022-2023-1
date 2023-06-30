@@ -18,4 +18,11 @@ Circuito en Arduino
 
 ![foto 3](https://github.com/vickgit201/aud5i022-2023-1/blob/main/proyecto-final/vickgit201/Imagen22.png)
 
+4.- Conectar las patitas inferiores de los pulsadores con la ayuda de un cable. El primero 
+(pulsador de abajo) en el pin 7 y el segundo (pulsador de arriba) en el pin 8.
+
+![foto 4](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen23.png)
+![foto 5](https://github.com/vickgit201/ArduinoParaInexpertxsyEjemplo/blob/main/Imagen24.png)
+
+
 
