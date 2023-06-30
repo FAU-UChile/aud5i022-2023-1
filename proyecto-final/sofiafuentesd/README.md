@@ -36,11 +36,11 @@ Quedamos en solucionarlo pronto.
 
 
 Avance n° 3 (23 de junio)
-Durante la semana de "trabajo autonomo" 
+// Durante la semana de "trabajo autonomo" 
 Seguimos avanzando en base a los códigos que encontramos en 'Libraries' de Processing 
 El ejemplo "SimplePlayback" como dice en su descripción:
 "* This is a simple sound file player. Use the mouse position to control playback
- * speed, amplitude and stereo panning."
+// Speed, amplitude and stereo panning."
 Nos ayudó a encontrar una manera de jugar con un sonido > "vibraphon.aiff" 
 En este codigo la interfaz para distorsionar el sonido era mediante el mouse.
 Luego de agregar otro sonido a este codigo > "basederap.mp3"
