@@ -11,5 +11,5 @@ void loop() {
   } else {                               // If the switch is not ON,
     Serial.write(0);               // send 0 to Processing
   }
-  delay(100);                            // Wait 100 milliseconds
+  delay(1000);                            // Wait 100 milliseconds
 }
