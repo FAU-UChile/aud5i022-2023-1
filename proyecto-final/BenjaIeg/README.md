@@ -132,17 +132,17 @@ https://github.com/BenjaIeg/aud5i022-2023-1/blob/main/proyecto-final/BenjaIeg/En
 * Cable rojo (+)
 * Cable azul (-)
 * 
-![](imagenes/Imagenes%20arduino/1.jpeg)
+![](imagenes/imagenes%20arduino/1.jpeg)
 
 2. Conectar *'Arduino'* al PC mediante cable USB.
 * 
 3. Conectar la primera mitad de la *'Protoboard'* con la segunda mitad. (Debido a que no le llega energía a toda la *'Protoboard'*)
 *
-![](imagenes/Imagenes%20arduino/2.jpeg)
+![](imagenes/imagenes%20arduino/2.jpeg)
 
 4. Agregar 'Botones' a la *'Protoboard'*
    * (En este caso los ubicamos en la parte derecha, la idea es ubicarlos donde esten comodos para las manos ya que serán utilizados para hacer *'play'* *'pause'* a los sonidos de "SCRATCH".
-  ![](imagenes/Imagenes%20arduino/2.1.jpeg)
+  ![](imagenes/imagenes%20arduino/2.1.jpeg)
 *
 5. Conectar los cables para hacerles llegar energía a los botones.
    * ###### Primer boton 
